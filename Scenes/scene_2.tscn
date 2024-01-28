@@ -1,5 +1,6 @@
-[gd_scene load_steps=25 format=3 uid="uid://dusipdkt8dmmi"]
+[gd_scene load_steps=29 format=3 uid="uid://dusipdkt8dmmi"]
 
+[ext_resource type="Script" path="res://Scenes/scene_2.gd" id="1_2doup"]
 [ext_resource type="Texture2D" uid="uid://6t1vh2gp8esn" path="res://background.png" id="1_45n6n"]
 [ext_resource type="Script" path="res://CharacterBody2D.gd" id="2_sp63h"]
 [ext_resource type="Texture2D" uid="uid://ck1cq754kru2n" path="res://Player/Player/courir 1.png" id="3_ibg07"]
@@ -10,6 +11,9 @@
 [ext_resource type="Texture2D" uid="uid://b2bv0ucylgb25" path="res://Player/spikes.png" id="8_yuwom"]
 [ext_resource type="Texture2D" uid="uid://tcmc3lp7kdtm" path="res://Player/licorne_vivant.png" id="9_pdadu"]
 [ext_resource type="Texture2D" uid="uid://8foltrg41e7w" path="res://Player/licorne_mort.png" id="11_m4f24"]
+[ext_resource type="AudioStream" uid="uid://cq63vurs2jhrc" path="res://Player/touchlicorne.mp3" id="11_pfhmg"]
+[ext_resource type="AudioStream" uid="uid://cm2utxvge4xym" path="res://Soundboard/fume.mp3" id="12_8q5ac"]
+[ext_resource type="Script" path="res://AudioStreamPlayer.gd" id="13_o5es0"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6tyrp"]
 load_path = "res://.godot/imported/1.png-0bee3f90c2d93ab3ba2753209f6c998b.ctex"
@@ -110,6 +114,7 @@ animations = [{
 }]
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource("1_2doup")
 
 [node name="Background" type="Node2D" parent="."]
 
@@ -223,3 +228,10 @@ sprite_frames = SubResource("SpriteFrames_c71gk")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Unicorn"]
 polygon = PackedVector2Array(1430, 516, 1437, 538, 1451, 550, 1441, 556, 1437, 557, 1430, 556, 1428, 560, 1443, 566, 1453, 573, 1460, 577, 1469, 576, 1463, 587, 1451, 595, 1440, 604, 1436, 613, 1439, 621, 1445, 627, 1453, 628, 1449, 636, 1451, 644, 1456, 649, 1464, 652, 1473, 651, 1478, 651, 1480, 658, 1474, 667, 1473, 679, 1473, 684, 1474, 710, 1468, 725, 1456, 738, 1456, 761, 1522, 755, 1525, 702, 1597, 710, 1590, 751, 1593, 756, 1664, 755, 1665, 701, 1681, 702, 1687, 682, 1704, 681, 1717, 637, 1702, 637, 1701, 628, 1674, 606, 1652, 606, 1632, 619, 1623, 633, 1620, 637, 1582, 634, 1577, 614, 1546, 607, 1544, 570, 1537, 564, 1537, 540, 1526, 539, 1512, 546, 1495, 535, 1472, 539, 1454, 516)
+
+[node name="licorne" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11_pfhmg")
+
+[node name="smoke" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("12_8q5ac")
+script = ExtResource("13_o5es0")

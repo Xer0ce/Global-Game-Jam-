@@ -53,6 +53,12 @@ func _physics_process(delta):
 		if body.name == "Spikes":
 			# kill player
 			pass
+		if body.name == "Floor_2":
+			for child in body.get_children():
+				if child.name == "CollisionShape2D":
+					var audio_player = get_node("../licorne")
+					if not audio_player.playing:
+						audio_player.play()
 	var invisible = get_node("../Invisible_Floor/CollisionShape2D")
 	if (touch_top == true):
 		invisible.disabled = true
