@@ -1,19 +1,23 @@
-[gd_scene load_steps=30 format=3 uid="uid://bjetulka555ju"]
+[gd_scene load_steps=34 format=3 uid="uid://bjetulka555ju"]
 
-[ext_resource type="Texture2D" uid="uid://6t1vh2gp8esn" path="res://scene6/background.png" id="1_i8peh"]
+[ext_resource type="Texture2D" uid="uid://6t1vh2gp8esn" path="res://scene7/background.png" id="1_i8peh"]
 [ext_resource type="Texture2D" uid="uid://mi3p36c4dxtn" path="res://scene6/Player/plateforme.png" id="2_oo5l3"]
 [ext_resource type="Script" path="res://scene4/scene4_StaticBody2D1.gd" id="3_g1wlh"]
-[ext_resource type="Script" path="res://scene4/CharacterBody2D.gd" id="3_snuhj"]
 [ext_resource type="Script" path="res://scene4/scene4_StaticBody2D.gd" id="4_8kpxm"]
-[ext_resource type="Texture2D" uid="uid://ck1cq754kru2n" path="res://scene6/Player/Player/courir 1.png" id="4_bd0xp"]
-[ext_resource type="Texture2D" uid="uid://dyewjx1402w2d" path="res://scene6/Player/Player/courir 2.png" id="5_o4ni6"]
-[ext_resource type="Texture2D" uid="uid://dabknwvvrjhbd" path="res://scene6/Player/Player/normal.png" id="6_ugh5a"]
+[ext_resource type="Texture2D" uid="uid://ck1cq754kru2n" path="res://scene7/Player/Player/courir 1.png" id="4_bd0xp"]
+[ext_resource type="Texture2D" uid="uid://dyewjx1402w2d" path="res://scene7/Player/Player/courir 2.png" id="5_o4ni6"]
+[ext_resource type="Script" path="res://scene4/Player.gd" id="5_ogg0k"]
+[ext_resource type="Texture2D" uid="uid://dabknwvvrjhbd" path="res://scene7/Player/Player/normal.png" id="6_ugh5a"]
 [ext_resource type="Script" path="res://scene4/AnimatedSprite2D.gd" id="7_q5awh"]
-[ext_resource type="AudioStream" uid="uid://cm2utxvge4xym" path="res://scene6/Soundboard/fume.mp3" id="8_86agd"]
+[ext_resource type="AudioStream" uid="uid://cm2utxvge4xym" path="res://scene7/Soundboard/fume.mp3" id="8_86agd"]
 [ext_resource type="Script" path="res://scene4/AudioStreamPlayer.gd" id="9_a7rdi"]
 [ext_resource type="Texture2D" uid="uid://cxyhum06fn30l" path="res://scene6/Player/PNJ.png" id="12_cb1cd"]
 [ext_resource type="Texture2D" uid="uid://d0r1n3pyipan7" path="res://scene6/Player/textPNJ_scene4.png" id="13_pmcyb"]
 [ext_resource type="Script" path="res://scene4/next.gd" id="14_ix175"]
+[ext_resource type="Texture2D" uid="uid://c50335oo1bijn" path="res://PMU/Player/ClickDroit.png" id="14_sugd8"]
+[ext_resource type="Texture2D" uid="uid://bdy7wcl7qkgim" path="res://PMU/Player/ClickGauche.png" id="15_c361o"]
+[ext_resource type="Texture2D" uid="uid://p0cjhaf2pccj" path="res://scene4/Player/Oui.png" id="16_otd8e"]
+[ext_resource type="Texture2D" uid="uid://clpfrck6628xi" path="res://scene4/Player/Non.png" id="17_vqvpq"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h0vr3"]
 size = Vector2(596, 148)
@@ -170,7 +174,7 @@ offset_bottom = 783.0
 texture = ExtResource("2_oo5l3")
 
 [node name="Player" type="CharacterBody2D" parent="."]
-script = ExtResource("3_snuhj")
+script = ExtResource("5_ogg0k")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
 position = Vector2(262, 525)
@@ -219,17 +223,51 @@ expand_mode = 1
 
 [node name="TextureRect2" type="TextureRect" parent="scene4_StaticBody2D3"]
 visible = false
-offset_left = 1435.0
-offset_top = 261.0
-offset_right = 1906.0
-offset_bottom = 367.0
+offset_left = 1357.0
+offset_top = 155.0
+offset_right = 1828.0
+offset_bottom = 261.0
 texture = ExtResource("13_pmcyb")
+
+[node name="TextureRect3" type="TextureRect" parent="scene4_StaticBody2D3"]
+visible = false
+offset_left = 1612.0
+offset_top = 267.0
+offset_right = 1650.0
+offset_bottom = 322.0
+texture = ExtResource("14_sugd8")
+expand_mode = 1
+
+[node name="TextureRect4" type="TextureRect" parent="scene4_StaticBody2D3"]
+visible = false
+offset_left = 1376.0
+offset_top = 265.0
+offset_right = 1414.0
+offset_bottom = 320.0
+texture = ExtResource("15_c361o")
+expand_mode = 1
+
+[node name="TextureRect5" type="TextureRect" parent="scene4_StaticBody2D3"]
+visible = false
+offset_left = 1426.0
+offset_top = 274.0
+offset_right = 1486.0
+offset_bottom = 314.0
+texture = ExtResource("16_otd8e")
+
+[node name="TextureRect6" type="TextureRect" parent="scene4_StaticBody2D3"]
+visible = false
+offset_left = 1667.0
+offset_top = 275.0
+offset_right = 1727.0
+offset_bottom = 315.0
+texture = ExtResource("17_vqvpq")
 
 [node name="next" type="Area2D" parent="."]
 script = ExtResource("14_ix175")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="next"]
-position = Vector2(1576.5, 516.125)
+position = Vector2(1850, 550)
 shape = SubResource("RectangleShape2D_0r38d")
 
 [connection signal="body_entered" from="next" to="next" method="_on_body_entered"]
