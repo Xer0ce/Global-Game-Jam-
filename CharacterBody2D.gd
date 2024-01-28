@@ -17,18 +17,27 @@ func _physics_process(delta):
 			velocity.x = speed
 			$AnimatedSprite2D.play("courir")
 			var footstep = get_node("../footstep")
-			footstep.play()
+			if not footstep.playing:
+				footstep.play()
 			$AnimatedSprite2D.flip_h = false
 		elif Input.is_action_pressed("ui_left"):
 			velocity.x = -speed
 			$AnimatedSprite2D.play("courir")
 			var footstep = get_node("../footstep")
-			footstep.play()
+			if not footstep.playing:
+				footstep.play()
 			$AnimatedSprite2D.flip_h = true
-			footstep.stop()
+
 		else:
 			$AnimatedSprite2D.play("default")
 
+
+		if Input.is_action_just_released("ui_left"):
+			var footstep = get_node("../footstep")
+			footstep.stop()
+		if Input.is_action_just_released("ui_right"):
+			var footstep = get_node("../footstep")
+			footstep.stop()
 		# Saut
 		if is_on_floor() and Input.is_action_just_pressed("ui_up"):
 			velocity.y = jump_height

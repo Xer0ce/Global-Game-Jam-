@@ -17,6 +17,12 @@ func _on_body_entered(body):
 		var node = get_node("../Player/AnimatedSprite2D")
 		if(node.animation == "eau"):
 			print ("zob")
-		#else:
-			# IL FAUT LE FAIRE MOURIR ICI
+		else:
+			var node_chut = get_node("../chutte")
+			var node_scratch = get_node("../scratch")
+			var node_sang = get_node("../sangSprite")
+			body.visible = false
+			node_sang.visible = true
+			node_chut.play()
+			node_scratch.play()
 		caca = false
