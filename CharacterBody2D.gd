@@ -1,8 +1,20 @@
 extends CharacterBody2D
 
 var speed = 600
-var jump_height = -2000
+var jump_height = -1500
 var gravity = 6000
+var bottes = false
+var dead = false
+
+func _bottes():
+	if (bottes == false): 
+		bottes = true
+	else:
+		bottes = false
+		
+func _dead():
+	print("caca")
+	dead = true
 
 func _physics_process(delta):
 	# Réinitialiser la vitesse horizontale
@@ -10,14 +22,23 @@ func _physics_process(delta):
 
 	if Input.is_action_pressed("ui_right"):
 		velocity.x = speed
-		$AnimatedSprite2D.play("courir")
+		if (bottes == true):
+			$AnimatedSprite2D.play("courrirbottes")
+		else:
+			$AnimatedSprite2D.play("courir")
 		$AnimatedSprite2D.flip_h = false
 	elif Input.is_action_pressed("ui_left"):
 		velocity.x = -speed
-		$AnimatedSprite2D.play("courir")
+		if (bottes == true):
+			$AnimatedSprite2D.play("courrirbottes")
+		else:
+			$AnimatedSprite2D.play("courir")
 		$AnimatedSprite2D.flip_h = true
 	else:
-		$AnimatedSprite2D.play("default")
+		if (bottes == true):
+			$AnimatedSprite2D.play("bottes")
+		else:
+			$AnimatedSprite2D.play("default")
 
 	if Input.is_action_pressed("action_f"):
 		$AnimatedSprite2D.play("clope")
