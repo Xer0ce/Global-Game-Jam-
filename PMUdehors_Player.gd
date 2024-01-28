@@ -41,9 +41,8 @@ func _physics_process(delta):
 		var body := collision.get_collider()
 		if body.name == "PMUdehors":
 			get_node("../PMUdehors/CollisionShape2D5").disabled = true
-			get_node("../PMUdehors/CollisionShape2D6").disabled = true
-			#passer à la deuxieme scene de PMU
+			#get_node("../PMUdehors/CollisionShape2D6").disabled = true
+			#get_node("../PMUdehors/Area2D").enterPMU()
 
 	if is_on_floor():
 		velocity.y = 0
-		
