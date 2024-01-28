@@ -13,17 +13,26 @@ func _physics_process(delta):
 	# Réinitialiser la vitesse horizontale
 	velocity.x = 0
 
+	var walking = get_node("../walking")
 	if Input.is_action_pressed("ui_right"):
 		velocity.x = speed
 		$AnimatedSprite2D.play("courir")
 		$AnimatedSprite2D.flip_h = false
+		if not walking.playing:
+			walking.play()
 	elif Input.is_action_pressed("ui_left"):
 		velocity.x = -speed
 		$AnimatedSprite2D.play("courir")
 		$AnimatedSprite2D.flip_h = true
+		if not walking.playing:
+			walking.play()
+
 	else:
 		$AnimatedSprite2D.play("default")
-
+	if Input.is_action_just_released("ui_right"):
+		walking.stop()
+	if Input.is_action_just_released("ui_left"):
+		walking.stop()
 	if Input.is_action_pressed("action_f"):
 		$AnimatedSprite2D.play("clope")
 

@@ -1,4 +1,4 @@
-[gd_scene load_steps=29 format=3 uid="uid://dusipdkt8dmmi"]
+[gd_scene load_steps=30 format=3 uid="uid://dusipdkt8dmmi"]
 
 [ext_resource type="Script" path="res://Scenes/scene_2.gd" id="1_2doup"]
 [ext_resource type="Texture2D" uid="uid://6t1vh2gp8esn" path="res://background.png" id="1_45n6n"]
@@ -11,9 +11,10 @@
 [ext_resource type="Texture2D" uid="uid://b2bv0ucylgb25" path="res://Player/spikes.png" id="8_yuwom"]
 [ext_resource type="Texture2D" uid="uid://tcmc3lp7kdtm" path="res://Player/licorne_vivant.png" id="9_pdadu"]
 [ext_resource type="Texture2D" uid="uid://8foltrg41e7w" path="res://Player/licorne_mort.png" id="11_m4f24"]
-[ext_resource type="AudioStream" uid="uid://cq63vurs2jhrc" path="res://Player/touchlicorne.mp3" id="11_pfhmg"]
+[ext_resource type="AudioStream" uid="uid://cq63vurs2jhrc" path="res://Soundboard/touchlicorne.mp3" id="11_pfhmg"]
 [ext_resource type="AudioStream" uid="uid://cm2utxvge4xym" path="res://Soundboard/fume.mp3" id="12_8q5ac"]
 [ext_resource type="Script" path="res://AudioStreamPlayer.gd" id="13_o5es0"]
+[ext_resource type="AudioStream" uid="uid://bx6b71t6ljv25" path="res://Soundboard/2_walking_sound_effect.mp3" id="15_idnbg"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6tyrp"]
 load_path = "res://.godot/imported/1.png-0bee3f90c2d93ab3ba2753209f6c998b.ctex"
@@ -235,3 +236,7 @@ stream = ExtResource("11_pfhmg")
 [node name="smoke" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("12_8q5ac")
 script = ExtResource("13_o5es0")
+
+[node name="walking" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("15_idnbg")
+volume_db = 11.064
