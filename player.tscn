@@ -12,10 +12,10 @@
 [ext_resource type="Script" path="res://AudioStreamPlayer.gd" id="9_psm2c"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5q6ln"]
-size = Vector2(1246, 159)
+size = Vector2(1912, 90.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kuqyi"]
-size = Vector2(225.1, 349.548)
+size = Vector2(62.0688, 124.222)
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6tyrp"]
 load_path = "res://.godot/imported/1.png-0bee3f90c2d93ab3ba2753209f6c998b.ctex"
