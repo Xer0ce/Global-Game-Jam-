@@ -49,15 +49,18 @@ func _physics_process(delta):
 	for index in get_slide_collision_count():
 		var collision := get_slide_collision(index)
 		var body := collision.get_collider()
-		if body.name == "scene4_StaticBody2D1" || body.name == "scene4_StaticBody2D":
-			body._switchPlatform()
-		if body.name == "scene4_StaticBody2D3":
-			for child in body.get_children():
-				if child.visible == false:
+		if body.name == "scene1_StaticBody2D1":
+			for child in (body.get_parent()).get_children():
+				if child.name == "scene1_StaticBody2D3" || child.name == "scene1_StaticBody2D":
 					child.visible = true
-				if child.name == "CollisionShape2D5":
+			body.visible = false
+			for child in body.get_children():
+				if child.name == "CollisionShape2D4":
 					child.disabled = true
-			responded = false
+		if body.name == "scene1_StaticBody2D2" || body.name == "scene1_StaticBody2D5":
+			body.visible = true
+		#if body.name == "scene1_StaticBody2D":            #décommenter ceci après avoir implementer mort
+			#tuer perso ici
 
 	if is_on_floor():
 		velocity.y = 0
