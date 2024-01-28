@@ -7,6 +7,7 @@ var on_echelle = false
 var echelle_speed = 200
 var speedtempo = true
 
+
 func _physics_process(delta):
 	velocity.x = 0
 
@@ -15,17 +16,25 @@ func _physics_process(delta):
 		if Input.is_action_pressed("ui_right"):
 			velocity.x = speed
 			$AnimatedSprite2D.play("courir")
+			var footstep = get_node("../footstep")
+			footstep.play()
 			$AnimatedSprite2D.flip_h = false
 		elif Input.is_action_pressed("ui_left"):
 			velocity.x = -speed
 			$AnimatedSprite2D.play("courir")
+			var footstep = get_node("../footstep")
+			footstep.play()
 			$AnimatedSprite2D.flip_h = true
+			footstep.stop()
 		else:
 			$AnimatedSprite2D.play("default")
 
 		# Saut
 		if is_on_floor() and Input.is_action_just_pressed("ui_up"):
 			velocity.y = jump_height
+			var pet = get_node("../pet")
+			pet.play()
+			
 			
 		if Input.is_action_pressed("action_o"):
 			$AnimatedSprite2D.play("eau")

@@ -1,7 +1,7 @@
+AudioStreamPlayer
 CollisionShape2D
 Area2D
 CollisionPolygon2D
 TextureRect
-AudioStreamPlayer
 AudioStreamPlayer2D
 StaticBody2D

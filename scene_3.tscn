@@ -1,4 +1,4 @@
-[gd_scene load_steps=47 format=3 uid="uid://0aq7gqthjsi"]
+[gd_scene load_steps=49 format=3 uid="uid://0aq7gqthjsi"]
 
 [ext_resource type="Script" path="res://scene_3.gd" id="1_r2lf6"]
 [ext_resource type="Texture2D" uid="uid://6t1vh2gp8esn" path="res://background.png" id="1_u2k26"]
@@ -19,6 +19,8 @@
 [ext_resource type="AudioStream" uid="uid://dx1chxlbqjok6" path="res://Soundboard/couille.mp3" id="16_bth8m"]
 [ext_resource type="Script" path="res://AudioStreamPlayer2.gd" id="17_jg5pb"]
 [ext_resource type="Script" path="res://checkFall.gd" id="19_cjoxe"]
+[ext_resource type="AudioStream" uid="uid://bw74r1njkcvol" path="res://Soundboard/pet.mp3" id="20_truaw"]
+[ext_resource type="AudioStream" uid="uid://do7s3xa0ox66c" path="res://Soundboard/footstep.mp3" id="21_w2tnj"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_s34sh"]
 size = Vector2(78, 157.125)
@@ -516,6 +518,12 @@ script = ExtResource("19_cjoxe")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="checkFall"]
 position = Vector2(1722.5, 1059.25)
 shape = SubResource("RectangleShape2D_pwm8g")
+
+[node name="pet" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("20_truaw")
+
+[node name="footstep" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("21_w2tnj")
 
 [connection signal="body_entered" from="echel" to="echel" method="_on_body_entered"]
 [connection signal="body_exited" from="echel" to="echel" method="_on_body_exited"]
