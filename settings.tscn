@@ -1,0 +1,50 @@
+[gd_scene load_steps=7 format=3 uid="uid://csqmpvjk20wo4"]
+
+[ext_resource type="Texture2D" uid="uid://d4jbc1el85ic3" path="res://menu/settings.png" id="1_e1thg"]
+[ext_resource type="Script" path="res://settings.gd" id="1_td7es"]
+[ext_resource type="Texture2D" uid="uid://dmrhprk6tb3a3" path="res://menu/rond.png" id="3_d18yr"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_nhrkq"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dqxxi"]
+texture = ExtResource("3_d18yr")
+expand_margin_left = 30.0
+expand_margin_top = 40.0
+expand_margin_right = 30.0
+expand_margin_bottom = 40.0
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_uangt"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_td7es")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("1_e1thg")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 93.578
+offset_top = 69.8444
+offset_right = 243.578
+offset_bottom = 119.844
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="back" type="Button" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(150, 50)
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxEmpty_nhrkq")
+theme_override_styles/hover = SubResource("StyleBoxTexture_dqxxi")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_uangt")
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/back" to="." method="_on_back_pressed"]
