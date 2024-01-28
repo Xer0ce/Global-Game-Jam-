@@ -9,7 +9,7 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 
 func _process(delta):
-	if Input.is_action_just_pressed("action_f"):
+	if Input.is_action_just_pressed("action_f") || Input.is_action_just_pressed("action_q"):
 		var audio_player = $AudioStreamPlayer  # Assurez-vous que ce chemin correspond à votre AudioStreamPlayer
 		if not audio_player.playing:
 			audio_player.play()
