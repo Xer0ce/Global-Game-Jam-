@@ -1,16 +1,16 @@
 [gd_scene load_steps=29 format=3 uid="uid://r4l0tg61rpju"]
 
-[ext_resource type="Texture2D" uid="uid://6t1vh2gp8esn" path="res://scene6/background.png" id="1_orskl"]
+[ext_resource type="Texture2D" uid="uid://6t1vh2gp8esn" path="res://scene7/background.png" id="1_orskl"]
 [ext_resource type="Texture2D" uid="uid://mi3p36c4dxtn" path="res://scene6/Player/plateforme.png" id="3_c7v56"]
-[ext_resource type="Script" path="res://CharacterBody2D.gd" id="4_fu6m7"]
+[ext_resource type="Script" path="res://scene6/Player.gd" id="3_tkgk7"]
 [ext_resource type="Texture2D" uid="uid://b3qvlk53afuh0" path="res://scene6/Player/keshua/keshua1.png" id="5_b3y12"]
-[ext_resource type="Texture2D" uid="uid://ck1cq754kru2n" path="res://scene6/Player/Player/courir 1.png" id="5_kv8qs"]
+[ext_resource type="Texture2D" uid="uid://ck1cq754kru2n" path="res://scene7/Player/Player/courir 1.png" id="5_kv8qs"]
 [ext_resource type="Texture2D" uid="uid://ccgshbsrgq60j" path="res://scene6/Player/keshua/keshua2.png" id="6_ci5oa"]
-[ext_resource type="Texture2D" uid="uid://dyewjx1402w2d" path="res://scene6/Player/Player/courir 2.png" id="6_g8qh7"]
-[ext_resource type="Texture2D" uid="uid://dabknwvvrjhbd" path="res://scene6/Player/Player/normal.png" id="7_4may1"]
+[ext_resource type="Texture2D" uid="uid://dyewjx1402w2d" path="res://scene7/Player/Player/courir 2.png" id="6_g8qh7"]
+[ext_resource type="Texture2D" uid="uid://dabknwvvrjhbd" path="res://scene7/Player/Player/normal.png" id="7_4may1"]
 [ext_resource type="Texture2D" uid="uid://bfa36istldmdi" path="res://scene6/Player/keshua/keshua3.png" id="7_jxfqd"]
 [ext_resource type="Script" path="res://AnimatedSprite2D.gd" id="8_isgsw"]
-[ext_resource type="AudioStream" uid="uid://cm2utxvge4xym" path="res://scene6/Soundboard/fume.mp3" id="9_bjb4p"]
+[ext_resource type="AudioStream" uid="uid://cm2utxvge4xym" path="res://scene7/Soundboard/fume.mp3" id="9_bjb4p"]
 [ext_resource type="Script" path="res://AudioStreamPlayer.gd" id="10_gcpxl"]
 [ext_resource type="Texture2D" uid="uid://cwhvyae1t0avu" path="res://scene6/Player/sang.png" id="14_5gnxp"]
 [ext_resource type="Texture2D" uid="uid://b5h488e2svl8d" path="res://scene6/Player/voiture.png" id="14_57x0m"]
@@ -150,7 +150,7 @@ shape = SubResource("RectangleShape2D_tfdwe")
 debug_color = Color(0.717647, 0.458824, 0.392157, 0.419608)
 
 [node name="Player" type="CharacterBody2D" parent="."]
-script = ExtResource("4_fu6m7")
+script = ExtResource("3_tkgk7")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
 position = Vector2(132, 821)
@@ -209,7 +209,7 @@ expand_mode = 1
 script = ExtResource("15_e3ptn")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="next"]
-position = Vector2(1488, 832)
+position = Vector2(1800, 832)
 shape = SubResource("RectangleShape2D_eo3r8")
 
 [connection signal="body_entered" from="next" to="next" method="_on_body_entered"]
