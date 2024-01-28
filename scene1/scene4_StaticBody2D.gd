@@ -1,0 +1,19 @@
+extends StaticBody2D
+
+var switched = false
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	pass
+
+func _switchPlatform():
+	if switched == false:
+		for child in get_children():
+			child.visible = !(child.visible)
+			if child.name == "CollisionShape2D4":
+				child.disabled = true
+		switched = true

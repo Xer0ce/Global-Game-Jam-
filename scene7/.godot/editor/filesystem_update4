@@ -1,0 +1,5 @@
+res://player.tscn
+res://CharacterBody2D.gd
+res://player.gd
+res://Area2D.gd
+res://Area2D2.gd

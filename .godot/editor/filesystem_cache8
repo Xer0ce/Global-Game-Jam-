@@ -1,0 +1,427 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1706467008
+AnimatedSprite2D.gd::GDScript::-1::1706434804::0::1::::<>AnimatedSprite2D<>::
+AudioStreamPlayer.gd::GDScript::-1::1706434804::0::1::::<>AudioStreamPlayer<>::
+background.png::CompressedTexture2D::2216693883257200633::1706434804::1706467009::1::::<><>::
+CharacterBody2D.gd::GDScript::-1::1706434804::0::1::::<>CharacterBody2D<>::
+icon.svg::CompressedTexture2D::1875111388365934559::1706434804::1706467009::1::::<><>::
+menu.gd::GDScript::-1::1706457838::0::1::::<>Control<>::
+menu.tscn::PackedScene::8834945425990751544::1706466919::0::1::::<><>::res://menu.gd<>uid://cba7w4k8otcyp::::res://menu/New Project.png<>uid://dmrhprk6tb3a3::::res://menu/rond.png
+player.gd::GDScript::-1::1706434804::0::1::::<>Node2D<>::
+player.tscn::PackedScene::6459885011749328346::1706464347::0::1::::<><>::res://player.gd<>uid://6t1vh2gp8esn::::res://scene6/background.png<>res://CharacterBody2D.gd<>res://AnimatedSprite2D.gd<>uid://ctyxd6arxmur3::::res://scene6/Player/Carré.png<>uid://ck1cq754kru2n::::res://scene6/Player/Player/courir 1.png<>uid://cm2utxvge4xym::::res://scene6/Soundboard/fume.mp3<>uid://dyewjx1402w2d::::res://scene6/Player/Player/courir 2.png<>uid://dabknwvvrjhbd::::res://scene6/Player/Player/normal.png<>res://AudioStreamPlayer.gd
+settings.gd::GDScript::-1::1706434804::0::1::::<>Control<>::
+settings.tscn::PackedScene::6070027105142549065::1706434804::0::1::::<><>::uid://d4jbc1el85ic3::::res://menu/settings.png<>res://settings.gd<>uid://dmrhprk6tb3a3::::res://menu/rond.png
+StaticBody2D.gd::GDScript::-1::1706434804::0::1::::<>StaticBody2D<>::
+TextureRect.gd::GDScript::-1::1706434804::0::1::::<>TextureRect<>::
+VBoxContainer.gd::GDScript::-1::1706434804::0::1::::<>VBoxContainer<>::
+::res://main/::1706457238
+AnimatedSprite2D.gd::GDScript::-1::1706328525::0::1::::<>AnimatedSprite2D<>::
+AudioStreamPlayer.gd::GDScript::-1::1706328525::0::1::::<>AudioStreamPlayer<>::
+background.png::CompressedTexture2D::2216693883257200633::1706328525::1706467010::1::::<><>::
+CharacterBody2D.gd::GDScript::-1::1706328525::0::1::::<>CharacterBody2D<>::
+icon.svg::CompressedTexture2D::1875111388365934559::1706328525::1706467010::1::::<><>::
+player.gd::GDScript::-1::1706328525::0::1::::<>Node2D<>::
+player.tscn::PackedScene::6459885011749328346::1706328525::0::1::::<><>::res://player.gd<>uid://6t1vh2gp8esn::::res://background.png<>res://CharacterBody2D.gd<>res://AnimatedSprite2D.gd<>uid://ctyxd6arxmur3::::res://Player/Carré.png<>uid://ck1cq754kru2n::::res://Player/Player/courir 1.png<>uid://cm2utxvge4xym::::res://Soundboard/fume.mp3<>uid://dyewjx1402w2d::::res://Player/Player/courir 2.png<>uid://dabknwvvrjhbd::::res://Player/Player/normal.png<>res://AudioStreamPlayer.gd
+StaticBody2D.gd::GDScript::-1::1706328525::0::1::::<>StaticBody2D<>::
+TextureRect.gd::GDScript::-1::1706328525::0::1::::<>TextureRect<>::
+::res://main/Player/::1706457238
+Carré.png::CompressedTexture2D::6157377939849083166::1706328525::1706467010::1::::<><>::
+::res://main/Player/clope/::1706457238
+1.png::CompressedTexture2D::1963791451728545244::1706328525::1706467010::1::::<><>::
+2.png::CompressedTexture2D::2521079876417414319::1706328525::1706467010::1::::<><>::
+3.png::CompressedTexture2D::401729466508928607::1706328525::1706467010::1::::<><>::
+4.png::CompressedTexture2D::7685311363589150271::1706328525::1706467011::1::::<><>::
+5.png::CompressedTexture2D::1091105320176032480::1706328525::1706467010::1::::<><>::
+::res://main/Player/Player/::1706457238
+courir 1.png::CompressedTexture2D::5528555360483111355::1706328525::1706467010::1::::<><>::
+courir 2.png::CompressedTexture2D::8853404904948417145::1706328525::1706467010::1::::<><>::
+ninho.png::CompressedTexture2D::1444783728574211450::1706328525::1706467010::1::::<><>::
+normal.png::CompressedTexture2D::7161958003013610617::1706328525::1706467011::1::::<><>::
+::res://main/Soundboard/::1706457238
+c'était chaud ouu.mp3::AudioStreamMP3::4268925837230417300::1706328525::1706467008::1::::<><>::
+c'était evident.mp3::AudioStreamMP3::2666214605513893871::1706328525::1706467008::1::::<><>::
+fume.mp3::AudioStreamMP3::5672095201098798144::1706328525::1706467008::1::::<><>::
+ouais pas mal.mp3::AudioStreamMP3::4741598554447894819::1706328525::1706467008::1::::<><>::
+pfff mec t'es trop guez.mp3::AudioStreamMP3::3488903622009872125::1706328525::1706467008::1::::<><>::
+pier ouin ouin.mp3::AudioStreamMP3::443893356199624598::1706328525::1706467008::1::::<><>::
+Till2.mp3::AudioStreamMP3::6792756996428381193::1706328525::1706467008::1::::<><>::
+till.mp3::AudioStreamMP3::3063530850337140643::1706328525::1706467008::1::::<><>::
+::res://menu/::1706457521
+New Project.png::CompressedTexture2D::4845013982402695007::1706434804::1706467011::1::::<><>::
+rond.png::CompressedTexture2D::8037075312191603492::1706434804::1706467010::1::::<><>::
+settings.png::CompressedTexture2D::9213383577280755168::1706434804::1706467011::1::::<><>::
+::res://Player/::1706457520
+Carré.png::CompressedTexture2D::6157377939849083166::1706434804::1706467011::1::::<><>::
+::res://Player/clope/::1706457521
+1.png::CompressedTexture2D::1963791451728545244::1706434804::1706467011::1::::<><>::
+2.png::CompressedTexture2D::2521079876417414319::1706434804::1706467011::1::::<><>::
+3.png::CompressedTexture2D::401729466508928607::1706434804::1706467011::1::::<><>::
+4.png::CompressedTexture2D::7685311363589150271::1706434804::1706467011::1::::<><>::
+5.png::CompressedTexture2D::1091105320176032480::1706434804::1706467011::1::::<><>::
+::res://Player/Player/::1706457521
+courir 1.png::CompressedTexture2D::5528555360483111355::1706434804::1706467011::1::::<><>::
+courir 2.png::CompressedTexture2D::8853404904948417145::1706434804::1706467011::1::::<><>::
+ninho.png::CompressedTexture2D::1444783728574211450::1706434804::1706467011::1::::<><>::
+normal.png::CompressedTexture2D::7161958003013610617::1706434804::1706467011::1::::<><>::
+::res://PMU/::1706466919
+AnimatedSprite2D.gd::GDScript::-1::1706455793::0::1::::<>AnimatedSprite2D<>::
+AudioStreamPlayer.gd::GDScript::-1::1706455793::0::1::::<>AudioStreamPlayer<>::
+background.png::CompressedTexture2D::2216693883257200633::1706455793::1706467011::1::::<><>::
+CharacterBody2D.gd::GDScript::-1::1706455793::0::1::::<>CharacterBody2D<>::
+Hole.gd::GDScript::-1::1706455793::0::1::::<>CollisionShape2D<>::
+icon.svg::CompressedTexture2D::1875111388365934559::1706455793::1706467011::1::::<><>::
+Illusion2.gd::GDScript::-1::1706455793::0::1::::<>TextureRect<>::
+Illusion.gd::GDScript::-1::1706455793::0::1::::<>StaticBody2D<>::
+InvisiblePit.gd::GDScript::-1::1706455793::0::1::::<>StaticBody2D<>::
+invisiblePlatform.gd::GDScript::-1::1706455793::0::1::::<>StaticBody2D<>::
+player.gd::GDScript::-1::1706455793::0::1::::<>Node2D<>::
+player.tscn::PackedScene::6459885011749328346::1706455793::0::1::::<><>::res://player.gd<>uid://6t1vh2gp8esn::::res://background.png<>res://CharacterBody2D.gd<>res://AnimatedSprite2D.gd<>uid://ctyxd6arxmur3::::res://Player/Carré.png<>uid://ck1cq754kru2n::::res://Player/Player/courir 1.png<>uid://cm2utxvge4xym::::res://Soundboard/fume.mp3<>uid://dyewjx1402w2d::::res://Player/Player/courir 2.png<>uid://dabknwvvrjhbd::::res://Player/Player/normal.png<>res://AudioStreamPlayer.gd
+PMUdedans.tscn::PackedScene::7109145163516418523::1706466919::0::1::::<><>::uid://6t1vh2gp8esn::::res://PMU/background.png<>uid://cm2utxvge4xym::::res://PMU/Soundboard/fume.mp3<>uid://icb4onvgmmoo::::res://PMU/Player/PMUbar.png<>res://PMU/AudioStreamPlayer.gd<>uid://mi3p36c4dxtn::::res://PMU/Player/plateforme.png<>uid://b3qvlk53afuh0::::res://PMU/Player/keshua/keshua1.png<>res://PMU/PMUdedans_Player.gd<>uid://ccgshbsrgq60j::::res://PMU/Player/keshua/keshua2.png<>uid://bfa36istldmdi::::res://PMU/Player/keshua/keshua3.png<>uid://ck1cq754kru2n::::res://PMU/Player/Player/courir 1.png<>uid://dyewjx1402w2d::::res://PMU/Player/Player/courir 2.png<>uid://dabknwvvrjhbd::::res://PMU/Player/Player/normal.png<>res://PMU/AnimatedSprite2D.gd<>uid://jkfm2j3t1b4j::::res://PMU/Player/dialogueBar.png<>uid://dkoomrbusvnhb::::res://PMU/Player/vodkaPomme.png<>uid://bbs2765uk4v4d::::res://PMU/Player/bierePeche.png<>uid://bdy7wcl7qkgim::::res://PMU/Player/ClickGauche.png<>uid://c50335oo1bijn::::res://PMU/Player/ClickDroit.png
+PMUdedans_Player.gd::GDScript::-1::1706455793::0::1::::<>CharacterBody2D<>::
+PMUdehors.tscn::PackedScene::1091493036006598531::1706466919::0::1::::<><>::uid://6t1vh2gp8esn::::res://PMU/background.png<>uid://b3qvlk53afuh0::::res://PMU/Player/keshua/keshua1.png<>uid://ccgshbsrgq60j::::res://PMU/Player/keshua/keshua2.png<>res://PMU/PMU_CollisionShape2D6.gd<>uid://bfa36istldmdi::::res://PMU/Player/keshua/keshua3.png<>res://PMU/PMUdehors_Player.gd<>uid://ck1cq754kru2n::::res://PMU/Player/Player/courir 1.png<>uid://dyewjx1402w2d::::res://PMU/Player/Player/courir 2.png<>uid://dabknwvvrjhbd::::res://PMU/Player/Player/normal.png<>res://PMU/AnimatedSprite2D.gd<>uid://cm2utxvge4xym::::res://PMU/Soundboard/fume.mp3<>res://AudioStreamPlayer.gd<>uid://mi3p36c4dxtn::::res://PMU/Player/plateforme.png<>uid://dg7t0he3jxg61::::res://PMU/Player/PMU.png
+PMUdehors_Player.gd::GDScript::-1::1706455793::0::1::::<>CharacterBody2D<>::
+PMU_CollisionShape2D6.gd::GDScript::-1::1706466558::0::1::::<>Area2D<>::
+Scene1.tscn::PackedScene::4589514128021135919::1706455793::0::1::::<><>::uid://6t1vh2gp8esn::::res://background.png<>res://Player/plateforme.png<>res://scene4_StaticBody2D1.gd<>res://Player/piques.png<>res://CharacterBody2D.gd<>uid://ck1cq754kru2n::::res://Player/Player/courir 1.png<>uid://dyewjx1402w2d::::res://Player/Player/courir 2.png<>uid://dabknwvvrjhbd::::res://Player/Player/normal.png<>res://AnimatedSprite2D.gd<>uid://cm2utxvge4xym::::res://Soundboard/fume.mp3<>res://AudioStreamPlayer.gd
+Scene4.tscn::PackedScene::3027567719438492302::1706455793::0::1::::<><>::uid://6t1vh2gp8esn::::res://background.png<>uid://mi3p36c4dxtn::::res://Player/plateforme.png<>res://scene4_StaticBody2D1.gd<>res://CharacterBody2D.gd<>res://scene4_StaticBody2D.gd<>uid://ck1cq754kru2n::::res://Player/Player/courir 1.png<>uid://dyewjx1402w2d::::res://Player/Player/courir 2.png<>uid://dabknwvvrjhbd::::res://Player/Player/normal.png<>res://AnimatedSprite2D.gd<>uid://cm2utxvge4xym::::res://Soundboard/fume.mp3<>res://AudioStreamPlayer.gd<>uid://cxyhum06fn30l::::res://Player/PNJ.png<>uid://d0r1n3pyipan7::::res://Player/textPNJ_scene4.png
+scene4_StaticBody2D1.gd::GDScript::-1::1706455793::0::1::::<>StaticBody2D<>::
+scene4_StaticBody2D.gd::GDScript::-1::1706455793::0::1::::<>StaticBody2D<>::
+Scene6.tscn::PackedScene::1253790837138745482::1706455793::0::1::::<><>::uid://6t1vh2gp8esn::::res://background.png<>uid://mi3p36c4dxtn::::res://Player/plateforme.png<>res://CharacterBody2D.gd<>uid://b3qvlk53afuh0::::res://Player/keshua/keshua1.png<>uid://ck1cq754kru2n::::res://Player/Player/courir 1.png<>uid://ccgshbsrgq60j::::res://Player/keshua/keshua2.png<>uid://dyewjx1402w2d::::res://Player/Player/courir 2.png<>uid://dabknwvvrjhbd::::res://Player/Player/normal.png<>uid://bfa36istldmdi::::res://Player/keshua/keshua3.png<>res://AnimatedSprite2D.gd<>uid://cm2utxvge4xym::::res://Soundboard/fume.mp3<>res://AudioStreamPlayer.gd<>uid://cwhvyae1t0avu::::res://Player/sang.png<>uid://b5h488e2svl8d::::res://Player/voiture.png
+spikePit.gd::GDScript::-1::1706455793::0::1::::<>StaticBody2D<>::
+StaticBody2D.gd::GDScript::-1::1706455793::0::1::::<>StaticBody2D<>::
+TextureRect.gd::GDScript::-1::1706455793::0::1::::<>TextureRect<>::
+::res://PMU/Player/::1706465208
+bierePeche.png::CompressedTexture2D::2495466506605084473::1706455793::1706467010::1::::<><>::
+Carré.png::CompressedTexture2D::6157377939849083166::1706455793::1706467010::1::::<><>::
+ClickDroit.png::CompressedTexture2D::6931867796404121799::1706455793::1706467010::1::::<><>::
+ClickGauche.png::CompressedTexture2D::2648514635454331460::1706455793::1706467010::1::::<><>::
+dialogueBar.png::CompressedTexture2D::652669818105880231::1706455793::1706467010::1::::<><>::
+piques.png::CompressedTexture2D::8197421201292332296::1706455793::1706467010::1::::<><>::
+plateforme.png::CompressedTexture2D::860509527067411927::1706455793::1706467010::1::::<><>::
+PMU.png::CompressedTexture2D::7647653843875395096::1706455793::1706467010::1::::<><>::
+PMUbar.png::CompressedTexture2D::565752766000394426::1706455793::1706467011::1::::<><>::
+PNJ.png::CompressedTexture2D::6437191242301880869::1706455793::1706467010::1::::<><>::
+sang.png::CompressedTexture2D::6332764494990058646::1706455793::1706467010::1::::<><>::
+textPNJ_scene4.png::CompressedTexture2D::8950680915909421842::1706455793::1706467010::1::::<><>::
+vodkaPomme.png::CompressedTexture2D::7890924138817413163::1706455793::1706467010::1::::<><>::
+voiture.png::CompressedTexture2D::4508358101803002169::1706455793::1706467011::1::::<><>::
+::res://PMU/Player/clope/::1706465208
+1.png::CompressedTexture2D::1963791451728545244::1706455793::1706467010::1::::<><>::
+2.png::CompressedTexture2D::2521079876417414319::1706455793::1706467010::1::::<><>::
+3.png::CompressedTexture2D::401729466508928607::1706455793::1706467010::1::::<><>::
+4.png::CompressedTexture2D::7685311363589150271::1706455793::1706467010::1::::<><>::
+5.png::CompressedTexture2D::1091105320176032480::1706455793::1706467010::1::::<><>::
+::res://PMU/Player/keshua/::1706465208
+keshua1.png::CompressedTexture2D::4386033623054059519::1706455793::1706467010::1::::<><>::
+keshua2.png::CompressedTexture2D::4926710808724671575::1706455793::1706467010::1::::<><>::
+keshua3.png::CompressedTexture2D::2739120786163161030::1706455793::1706467010::1::::<><>::
+::res://PMU/Player/Player/::1706465208
+courir 1.png::CompressedTexture2D::5528555360483111355::1706455793::1706467010::1::::<><>::
+courir 2.png::CompressedTexture2D::8853404904948417145::1706455793::1706467010::1::::<><>::
+ninho.png::CompressedTexture2D::1444783728574211450::1706455793::1706467010::1::::<><>::
+normal.png::CompressedTexture2D::7161958003013610617::1706455793::1706467010::1::::<><>::
+::res://PMU/Soundboard/::1706465207
+c'était chaud ouu.mp3::AudioStreamMP3::4268925837230417300::1706455793::1706467008::1::::<><>::
+c'était evident.mp3::AudioStreamMP3::2666214605513893871::1706455793::1706467008::1::::<><>::
+fume.mp3::AudioStreamMP3::5672095201098798144::1706455793::1706467008::1::::<><>::
+ouais pas mal.mp3::AudioStreamMP3::4741598554447894819::1706455793::1706467008::1::::<><>::
+pfff mec t'es trop guez.mp3::AudioStreamMP3::3488903622009872125::1706455793::1706467008::1::::<><>::
+pier ouin ouin.mp3::AudioStreamMP3::443893356199624598::1706455793::1706467008::1::::<><>::
+Till2.mp3::AudioStreamMP3::6792756996428381193::1706455793::1706467008::1::::<><>::
+till.mp3::AudioStreamMP3::3063530850337140643::1706455793::1706467008::1::::<><>::
+::res://scene1/::1706466919
+AnimatedSprite2D.gd::GDScript::-1::1706436840::0::1::::<>AnimatedSprite2D<>::
+AudioStreamPlayer.gd::GDScript::-1::1706436840::0::1::::<>AudioStreamPlayer<>::
+background.png::CompressedTexture2D::2216693883257200633::1706436840::1706467012::1::::<><>::
+CharacterBody2D.gd::GDScript::-1::1706436840::0::1::::<>CharacterBody2D<>::
+Hole.gd::GDScript::-1::1706436840::0::1::::<>CollisionShape2D<>::
+icon.svg::CompressedTexture2D::1875111388365934559::1706436840::1706467011::1::::<><>::
+Illusion2.gd::GDScript::-1::1706436840::0::1::::<>TextureRect<>::
+Illusion.gd::GDScript::-1::1706436840::0::1::::<>StaticBody2D<>::
+InvisiblePit.gd::GDScript::-1::1706436840::0::1::::<>StaticBody2D<>::
+invisiblePlatform.gd::GDScript::-1::1706436840::0::1::::<>StaticBody2D<>::
+next.gd::GDScript::-1::1706465790::0::1::::<>Area2D<>::
+player.gd::GDScript::-1::1706436840::0::1::::<>Node2D<>::
+player.tscn::PackedScene::6459885011749328346::1706436840::0::1::::<><>::res://player.gd<>uid://6t1vh2gp8esn::::res://background.png<>res://CharacterBody2D.gd<>res://AnimatedSprite2D.gd<>uid://ctyxd6arxmur3::::res://Player/Carré.png<>uid://ck1cq754kru2n::::res://Player/Player/courir 1.png<>uid://cm2utxvge4xym::::res://Soundboard/fume.mp3<>uid://dyewjx1402w2d::::res://Player/Player/courir 2.png<>uid://dabknwvvrjhbd::::res://Player/Player/normal.png<>res://AudioStreamPlayer.gd
+Scene1.tscn::PackedScene::4589514128021135919::1706466919::0::1::::<><>::uid://6t1vh2gp8esn::::res://scene6/background.png<>uid://mi3p36c4dxtn::::res://scene6/Player/plateforme.png<>res://scene1/scene4_StaticBody2D1.gd<>uid://do15lg6y4vf3e::::res://scene6/Player/piques.png<>res://scene1/CharacterBody2D.gd<>uid://ck1cq754kru2n::::res://scene6/Player/Player/courir 1.png<>uid://dyewjx1402w2d::::res://scene6/Player/Player/courir 2.png<>uid://dabknwvvrjhbd::::res://scene6/Player/Player/normal.png<>res://scene1/AnimatedSprite2D.gd<>uid://cm2utxvge4xym::::res://scene6/Soundboard/fume.mp3<>res://scene1/next.gd<>res://AudioStreamPlayer.gd
+Scene4.tscn::PackedScene::3027567719438492302::1706436840::0::1::::<><>::uid://6t1vh2gp8esn::::res://background.png<>uid://mi3p36c4dxtn::::res://Player/plateforme.png<>res://scene4_StaticBody2D1.gd<>res://CharacterBody2D.gd<>res://scene4_StaticBody2D.gd<>uid://ck1cq754kru2n::::res://Player/Player/courir 1.png<>uid://dyewjx1402w2d::::res://Player/Player/courir 2.png<>uid://dabknwvvrjhbd::::res://Player/Player/normal.png<>res://AnimatedSprite2D.gd<>uid://cm2utxvge4xym::::res://Soundboard/fume.mp3<>res://AudioStreamPlayer.gd<>uid://cxyhum06fn30l::::res://Player/PNJ.png<>uid://d0r1n3pyipan7::::res://Player/textPNJ_scene4.png
+scene4_StaticBody2D1.gd::GDScript::-1::1706436840::0::1::::<>StaticBody2D<>::
+scene4_StaticBody2D.gd::GDScript::-1::1706436840::0::1::::<>StaticBody2D<>::
+spikePit.gd::GDScript::-1::1706436840::0::1::::<>StaticBody2D<>::
+StaticBody2D.gd::GDScript::-1::1706436840::0::1::::<>StaticBody2D<>::
+TextureRect.gd::GDScript::-1::1706436840::0::1::::<>TextureRect<>::
+::res://scene1/Player/::1706457914
+Carré.png::CompressedTexture2D::6157377939849083166::1706436840::1706467011::1::::<><>::
+piques.png::CompressedTexture2D::8197421201292332296::1706436840::1706467011::1::::<><>::
+plateforme.png::CompressedTexture2D::860509527067411927::1706436840::1706467011::1::::<><>::
+PNJ.png::CompressedTexture2D::6437191242301880869::1706436840::1706467012::1::::<><>::
+textPNJ_scene4.png::CompressedTexture2D::8950680915909421842::1706436840::1706467011::1::::<><>::
+::res://scene1/Player/clope/::1706457914
+1.png::CompressedTexture2D::1963791451728545244::1706436840::1706467012::1::::<><>::
+2.png::CompressedTexture2D::2521079876417414319::1706436840::1706467012::1::::<><>::
+3.png::CompressedTexture2D::401729466508928607::1706436840::1706467012::1::::<><>::
+4.png::CompressedTexture2D::7685311363589150271::1706436840::1706467012::1::::<><>::
+5.png::CompressedTexture2D::1091105320176032480::1706436840::1706467012::1::::<><>::
+::res://scene1/Player/Player/::1706457914
+courir 1.png::CompressedTexture2D::5528555360483111355::1706436840::1706467012::1::::<><>::
+courir 2.png::CompressedTexture2D::8853404904948417145::1706436840::1706467012::1::::<><>::
+ninho.png::CompressedTexture2D::1444783728574211450::1706436840::1706467012::1::::<><>::
+normal.png::CompressedTexture2D::7161958003013610617::1706436840::1706467012::1::::<><>::
+::res://scene1/Soundboard/::1706457914
+c'était chaud ouu.mp3::AudioStreamMP3::4268925837230417300::1706436840::1706467008::1::::<><>::
+c'était evident.mp3::AudioStreamMP3::2666214605513893871::1706436840::1706467008::1::::<><>::
+fume.mp3::AudioStreamMP3::5672095201098798144::1706436840::1706467008::1::::<><>::
+ouais pas mal.mp3::AudioStreamMP3::4741598554447894819::1706436840::1706467008::1::::<><>::
+pfff mec t'es trop guez.mp3::AudioStreamMP3::3488903622009872125::1706436840::1706467008::1::::<><>::
+pier ouin ouin.mp3::AudioStreamMP3::443893356199624598::1706436840::1706467008::1::::<><>::
+Till2.mp3::AudioStreamMP3::6792756996428381193::1706436840::1706467008::1::::<><>::
+till.mp3::AudioStreamMP3::3063530850337140643::1706436840::1706467008::1::::<><>::
+::res://scene2/::1706458215
+AnimatedSprite2D.gd::GDScript::-1::1706456307::0::1::::<>AnimatedSprite2D<>::
+AudioStreamPlayer.gd::GDScript::-1::1706456307::0::1::::<>AudioStreamPlayer<>::
+background.png::CompressedTexture2D::2216693883257200633::1706456307::1706467011::1::::<><>::
+CharacterBody2D.gd::GDScript::-1::1706456307::0::1::::<>CharacterBody2D<>::
+icon.svg::CompressedTexture2D::1875111388365934559::1706456307::1706467011::1::::<><>::
+player.gd::GDScript::-1::1706456307::0::1::::<>Node2D<>::
+player.tscn::PackedScene::6459885011749328346::1706456307::0::1::::<><>::res://player.gd<>uid://6t1vh2gp8esn::::res://background.png<>res://CharacterBody2D.gd<>res://AnimatedSprite2D.gd<>uid://ctyxd6arxmur3::::res://Player/Carré.png<>uid://ck1cq754kru2n::::res://Player/Player/courir 1.png<>uid://cm2utxvge4xym::::res://Soundboard/fume.mp3<>uid://dyewjx1402w2d::::res://Player/Player/courir 2.png<>uid://dabknwvvrjhbd::::res://Player/Player/normal.png<>res://AudioStreamPlayer.gd
+StaticBody2D.gd::GDScript::-1::1706456307::0::1::::<>StaticBody2D<>::
+TextureRect.gd::GDScript::-1::1706456307::0::1::::<>TextureRect<>::
+::res://scene2/Player/::1706458215
+Carré.png::CompressedTexture2D::6157377939849083166::1706456307::1706467011::1::::<><>::
+floor.png::CompressedTexture2D::3437373954071000457::1706456307::1706467011::1::::<><>::
+licorne_mort.png::CompressedTexture2D::2327424434974773638::1706456307::1706467011::1::::<><>::
+licorne_vivant.png::CompressedTexture2D::1338450448503086094::1706456307::1706467011::1::::<><>::
+spikes.png::CompressedTexture2D::4284904596031752856::1706456307::1706467011::1::::<><>::
+::res://scene2/Player/clope/::1706458216
+1.png::CompressedTexture2D::1963791451728545244::1706456307::1706467012::1::::<><>::
+2.png::CompressedTexture2D::2521079876417414319::1706456307::1706467012::1::::<><>::
+3.png::CompressedTexture2D::401729466508928607::1706456307::1706467012::1::::<><>::
+4.png::CompressedTexture2D::7685311363589150271::1706456307::1706467012::1::::<><>::
+5.png::CompressedTexture2D::1091105320176032480::1706456307::1706467012::1::::<><>::
+::res://scene2/Player/Player/::1706458216
+courir 1.png::CompressedTexture2D::5528555360483111355::1706456307::1706467012::1::::<><>::
+courir 2.png::CompressedTexture2D::8853404904948417145::1706456307::1706467011::1::::<><>::
+ninho.png::CompressedTexture2D::1444783728574211450::1706456307::1706467011::1::::<><>::
+normal.png::CompressedTexture2D::7161958003013610617::1706456307::1706467011::1::::<><>::
+::res://scene2/Scenes/::1706466919
+next.gd::GDScript::-1::1706465790::0::1::::<>Area2D<>::
+scene_2.gd::GDScript::-1::1706456307::0::1::::<>Node2D<>::
+scene_2.tscn::PackedScene::8600710420189330904::1706466919::0::1::::<><>::res://scene2/Scenes/scene_2.gd<>uid://6t1vh2gp8esn::::res://scene6/background.png<>res://scene2/CharacterBody2D.gd<>uid://ck1cq754kru2n::::res://scene6/Player/Player/courir 1.png<>uid://dyewjx1402w2d::::res://scene6/Player/Player/courir 2.png<>uid://dabknwvvrjhbd::::res://scene6/Player/Player/normal.png<>res://scene2/AnimatedSprite2D.gd<>uid://bo8dbuedfbspl::::res://scene2/Player/floor.png<>uid://b2bv0ucylgb25::::res://scene2/Player/spikes.png<>uid://tcmc3lp7kdtm::::res://scene2/Player/licorne_vivant.png<>uid://8foltrg41e7w::::res://scene2/Player/licorne_mort.png<>uid://cq63vurs2jhrc::::res://scene2/Soundboard/touchlicorne.mp3<>uid://cm2utxvge4xym::::res://scene6/Soundboard/fume.mp3<>res://scene2/AudioStreamPlayer.gd<>uid://bx6b71t6ljv25::::res://scene2/Soundboard/2_walking_sound_effect.mp3<>res://scene2/Scenes/next.gd
+::res://scene2/Soundboard/::1706458215
+2_walking_sound_effect.mp3::AudioStreamMP3::4064879056523386528::1706456307::1706467008::1::::<><>::
+c'était chaud ouu.mp3::AudioStreamMP3::4268925837230417300::1706456307::1706467008::1::::<><>::
+c'était evident.mp3::AudioStreamMP3::2666214605513893871::1706456307::1706467008::1::::<><>::
+fume.mp3::AudioStreamMP3::5672095201098798144::1706456307::1706467008::1::::<><>::
+ouais pas mal.mp3::AudioStreamMP3::4741598554447894819::1706456307::1706467008::1::::<><>::
+pfff mec t'es trop guez.mp3::AudioStreamMP3::3488903622009872125::1706456307::1706467008::1::::<><>::
+pier ouin ouin.mp3::AudioStreamMP3::443893356199624598::1706456307::1706467008::1::::<><>::
+Till2.mp3::AudioStreamMP3::6792756996428381193::1706456307::1706467008::1::::<><>::
+till.mp3::AudioStreamMP3::3063530850337140643::1706456307::1706467008::1::::<><>::
+touchlicorne.mp3::AudioStreamMP3::5961597231022996184::1706456307::1706467008::1::::<><>::
+::res://scene3/::1706466919
+AnimatedSprite2D.gd::GDScript::-1::1706456159::0::1::::<>AnimatedSprite2D<>::
+Area2D.gd::GDScript::-1::1706456159::0::1::::<>Area2D<>::
+AudioStreamPlayer2.gd::GDScript::-1::1706456159::0::1::::<>AudioStreamPlayer<>::
+AudioStreamPlayer.gd::GDScript::-1::1706456159::0::1::::<>AudioStreamPlayer<>::
+background.png::CompressedTexture2D::2216693883257200633::1706456159::1706467008::1::::<><>::
+Bon.gd::GDScript::-1::1706456159::0::1::::<>Area2D<>::
+CharacterBody2D.gd::GDScript::-1::1706456159::0::1::::<>CharacterBody2D<>::
+checkFall.gd::GDScript::-1::1706466272::0::1::::<>Area2D<>::
+disabledcollision.gd::GDScript::-1::1706456159::0::1::::<>CollisionShape2D<>::
+echel.gd::GDScript::-1::1706456159::0::1::::<>Area2D<>::
+enY.gd::GDScript::-1::1706456159::0::1::::<>Area2D<>::
+icon.svg::CompressedTexture2D::1875111388365934559::1706456159::1706467008::1::::<><>::
+Mauvaise.gd::GDScript::-1::1706456159::0::1::::<>Area2D<>::
+next.gd::GDScript::-1::1706466281::0::1::::<>Area2D<>::
+player.gd::GDScript::-1::1706456159::0::1::::<>Node2D<>::
+player.tscn::PackedScene::6459885011749328346::1706456159::0::1::::<><>::res://player.gd<>uid://6t1vh2gp8esn::::res://background.png<>res://CharacterBody2D.gd<>res://AnimatedSprite2D.gd<>uid://ctyxd6arxmur3::::res://Player/Carré.png<>uid://ck1cq754kru2n::::res://Player/Player/courir 1.png<>uid://cm2utxvge4xym::::res://Soundboard/fume.mp3<>uid://dyewjx1402w2d::::res://Player/Player/courir 2.png<>uid://dabknwvvrjhbd::::res://Player/Player/normal.png<>res://AudioStreamPlayer.gd
+scene_3.gd::GDScript::-1::1706456159::0::1::::<>Node2D<>::
+scene_3.tscn::PackedScene::51639707322647160::1706466919::0::1::::<><>::res://scene3/scene_3.gd<>uid://6t1vh2gp8esn::::res://scene6/background.png<>res://scene3/CharacterBody2D.gd<>uid://ck1cq754kru2n::::res://scene6/Player/Player/courir 1.png<>uid://dyewjx1402w2d::::res://scene6/Player/Player/courir 2.png<>uid://dabknwvvrjhbd::::res://scene6/Player/Player/normal.png<>res://scene3/AnimatedSprite2D.gd<>uid://bmw3enawtbq13::::res://scene3/Player/mure_scene3/brique.jpg<>uid://cyxbtv1asi600::::res://scene3/Player/Player/eau.png<>uid://mc3mcf67ggnl::::res://scene3/Player/bloc.png<>uid://cm2utxvge4xym::::res://scene6/Soundboard/fume.mp3<>res://scene3/AudioStreamPlayer.gd<>res://scene3/echel.gd<>uid://c23y06kxlsfu2::::res://scene3/Player/echel.png<>res://scene3/Mauvaise.gd<>res://scene3/Bon.gd<>uid://dx1chxlbqjok6::::res://scene3/Soundboard/couille.mp3<>res://scene3/AudioStreamPlayer2.gd<>res://scene3/checkFall.gd<>uid://bw74r1njkcvol::::res://scene3/Soundboard/pet.mp3<>uid://do7s3xa0ox66c::::res://scene3/Soundboard/footstep.mp3<>uid://b85lbydnbh8qe::::res://scene3/Soundboard/degatchutte.mp3<>uid://d0ya8b1eytibd::::res://scene3/Soundboard/scratch.mp3<>uid://dgixjkfj478ha::::res://scene3/Player/sang.png<>res://scene3/next.gd
+StaticBody2D.gd::GDScript::-1::1706456159::0::1::::<>StaticBody2D<>::
+TextureRect.gd::GDScript::-1::1706456159::0::1::::<>TextureRect<>::
+::res://scene3/Player/::1706458425
+bloc.png::CompressedTexture2D::848116498711054381::1706456159::1706467011::1::::<><>::
+Carré.png::CompressedTexture2D::6157377939849083166::1706456159::1706467011::1::::<><>::
+echel.png::CompressedTexture2D::6727246220133094775::1706456159::1706467011::1::::<><>::
+sang.png::CompressedTexture2D::7598323231325240610::1706456159::1706467011::1::::<><>::
+::res://scene3/Player/clope/::1706458425
+1.png::CompressedTexture2D::1963791451728545244::1706456159::1706467011::1::::<><>::
+2.png::CompressedTexture2D::2521079876417414319::1706456159::1706467011::1::::<><>::
+3.png::CompressedTexture2D::401729466508928607::1706456159::1706467011::1::::<><>::
+4.png::CompressedTexture2D::7685311363589150271::1706456159::1706467011::1::::<><>::
+5.png::CompressedTexture2D::1091105320176032480::1706456159::1706467011::1::::<><>::
+::res://scene3/Player/mure_scene3/::1706458425
+brique.jpg::CompressedTexture2D::3275811020740465608::1706456159::1706467011::1::::<><>::
+::res://scene3/Player/Player/::1706458425
+courir 1.png::CompressedTexture2D::5528555360483111355::1706456159::1706467011::1::::<><>::
+courir 2.png::CompressedTexture2D::8853404904948417145::1706456159::1706467011::1::::<><>::
+eau.png::CompressedTexture2D::6504950093298986695::1706456159::1706467011::1::::<><>::
+ninho.png::CompressedTexture2D::1444783728574211450::1706456159::1706467011::1::::<><>::
+normal.png::CompressedTexture2D::7161958003013610617::1706456159::1706467011::1::::<><>::
+::res://scene3/Soundboard/::1706458424
+c'était chaud ouu.mp3::AudioStreamMP3::4268925837230417300::1706456159::1706467008::1::::<><>::
+c'était evident.mp3::AudioStreamMP3::2666214605513893871::1706456159::1706467008::1::::<><>::
+couille.mp3::AudioStreamMP3::8827414435999558355::1706456159::1706467008::1::::<><>::
+degatchutte.mp3::AudioStreamMP3::4765254794871426384::1706456159::1706467008::1::::<><>::
+footstep.mp3::AudioStreamMP3::8209110067433391316::1706456159::1706467008::1::::<><>::
+fume.mp3::AudioStreamMP3::5672095201098798144::1706456159::1706467008::1::::<><>::
+malocrane.mp3::AudioStreamMP3::7430227941229902261::1706456159::1706467008::1::::<><>::
+ouais pas mal.mp3::AudioStreamMP3::4741598554447894819::1706456159::1706467008::1::::<><>::
+pet.mp3::AudioStreamMP3::3998427869258283723::1706456159::1706467008::1::::<><>::
+pfff mec t'es trop guez.mp3::AudioStreamMP3::3488903622009872125::1706456159::1706467008::1::::<><>::
+pier ouin ouin.mp3::AudioStreamMP3::443893356199624598::1706456159::1706467008::1::::<><>::
+rot_mort.mp3::AudioStreamMP3::3857742132298693269::1706456159::1706467008::1::::<><>::
+scratch.mp3::AudioStreamMP3::8963587232229243741::1706456159::1706467008::1::::<><>::
+Till2.mp3::AudioStreamMP3::6792756996428381193::1706456159::1706467008::1::::<><>::
+till.mp3::AudioStreamMP3::3063530850337140643::1706456159::1706467008::1::::<><>::
+touchlicorne.mp3::AudioStreamMP3::6976749026756000173::1706456159::1706467008::1::::<><>::
+::res://scene4/::1706466932
+AnimatedSprite2D.gd::GDScript::-1::1706379412::0::1::::<>AnimatedSprite2D<>::
+AudioStreamPlayer.gd::GDScript::-1::1706379412::0::1::::<>AudioStreamPlayer<>::
+background.png::CompressedTexture2D::2216693883257200633::1706379412::1706467009::1::::<><>::
+CharacterBody2D.gd::GDScript::-1::1706379412::0::1::::<>CharacterBody2D<>::
+Hole.gd::GDScript::-1::1706379412::0::1::::<>CollisionShape2D<>::
+icon.svg::CompressedTexture2D::1875111388365934559::1706379412::1706467009::1::::<><>::
+Illusion2.gd::GDScript::-1::1706379412::0::1::::<>TextureRect<>::
+Illusion.gd::GDScript::-1::1706379412::0::1::::<>StaticBody2D<>::
+InvisiblePit.gd::GDScript::-1::1706379412::0::1::::<>StaticBody2D<>::
+invisiblePlatform.gd::GDScript::-1::1706379412::0::1::::<>StaticBody2D<>::
+next.gd::GDScript::-1::1706466379::0::1::::<>Area2D<>::
+player.gd::GDScript::-1::1706379412::0::1::::<>Node2D<>::
+player.tscn::PackedScene::6459885011749328346::1706379412::0::1::::<><>::res://player.gd<>uid://6t1vh2gp8esn::::res://background.png<>res://CharacterBody2D.gd<>res://AnimatedSprite2D.gd<>uid://ctyxd6arxmur3::::res://Player/Carré.png<>uid://ck1cq754kru2n::::res://Player/Player/courir 1.png<>uid://cm2utxvge4xym::::res://Soundboard/fume.mp3<>uid://dyewjx1402w2d::::res://Player/Player/courir 2.png<>uid://dabknwvvrjhbd::::res://Player/Player/normal.png<>res://AudioStreamPlayer.gd
+Scene4.tscn::PackedScene::3027567719438492302::1706466932::0::1::::<><>::uid://6t1vh2gp8esn::::res://scene6/background.png<>uid://mi3p36c4dxtn::::res://scene6/Player/plateforme.png<>res://scene4/scene4_StaticBody2D1.gd<>res://scene4/CharacterBody2D.gd<>res://scene4/scene4_StaticBody2D.gd<>uid://ck1cq754kru2n::::res://scene6/Player/Player/courir 1.png<>uid://dyewjx1402w2d::::res://scene6/Player/Player/courir 2.png<>uid://dabknwvvrjhbd::::res://scene6/Player/Player/normal.png<>res://scene4/AnimatedSprite2D.gd<>uid://cm2utxvge4xym::::res://scene6/Soundboard/fume.mp3<>res://scene4/AudioStreamPlayer.gd<>uid://cxyhum06fn30l::::res://scene6/Player/PNJ.png<>uid://d0r1n3pyipan7::::res://scene6/Player/textPNJ_scene4.png<>res://scene4/next.gd
+scene4_StaticBody2D1.gd::GDScript::-1::1706379412::0::1::::<>StaticBody2D<>::
+scene4_StaticBody2D.gd::GDScript::-1::1706379412::0::1::::<>StaticBody2D<>::
+spikePit.gd::GDScript::-1::1706379412::0::1::::<>StaticBody2D<>::
+StaticBody2D.gd::GDScript::-1::1706379412::0::1::::<>StaticBody2D<>::
+TextureRect.gd::GDScript::-1::1706379412::0::1::::<>TextureRect<>::
+::res://scene4/Player/::1706458673
+Carré.png::CompressedTexture2D::6157377939849083166::1706379412::1706467008::1::::<><>::
+piques.png::CompressedTexture2D::8197421201292332296::1706379412::1706467008::1::::<><>::
+plateforme.png::CompressedTexture2D::860509527067411927::1706379412::1706467008::1::::<><>::
+PNJ.png::CompressedTexture2D::6437191242301880869::1706379412::1706467008::1::::<><>::
+textPNJ_scene4.png::CompressedTexture2D::8950680915909421842::1706379412::1706467008::1::::<><>::
+::res://scene4/Player/clope/::1706458674
+1.png::CompressedTexture2D::1963791451728545244::1706379412::1706467009::1::::<><>::
+2.png::CompressedTexture2D::2521079876417414319::1706379412::1706467009::1::::<><>::
+3.png::CompressedTexture2D::401729466508928607::1706379412::1706467009::1::::<><>::
+4.png::CompressedTexture2D::7685311363589150271::1706379412::1706467009::1::::<><>::
+5.png::CompressedTexture2D::1091105320176032480::1706379412::1706467009::1::::<><>::
+::res://scene4/Player/Player/::1706458674
+courir 1.png::CompressedTexture2D::5528555360483111355::1706379412::1706467008::1::::<><>::
+courir 2.png::CompressedTexture2D::8853404904948417145::1706379412::1706467009::1::::<><>::
+ninho.png::CompressedTexture2D::1444783728574211450::1706379412::1706467009::1::::<><>::
+normal.png::CompressedTexture2D::7161958003013610617::1706379412::1706467009::1::::<><>::
+::res://scene4/Soundboard/::1706458673
+c'était chaud ouu.mp3::AudioStreamMP3::4268925837230417300::1706379412::1706467008::1::::<><>::
+c'était evident.mp3::AudioStreamMP3::2666214605513893871::1706379412::1706467008::1::::<><>::
+fume.mp3::AudioStreamMP3::5672095201098798144::1706379412::1706467008::1::::<><>::
+ouais pas mal.mp3::AudioStreamMP3::4741598554447894819::1706379412::1706467008::1::::<><>::
+pfff mec t'es trop guez.mp3::AudioStreamMP3::3488903622009872125::1706379412::1706467008::1::::<><>::
+pier ouin ouin.mp3::AudioStreamMP3::443893356199624598::1706379412::1706467008::1::::<><>::
+Till2.mp3::AudioStreamMP3::6792756996428381193::1706379412::1706467008::1::::<><>::
+till.mp3::AudioStreamMP3::3063530850337140643::1706379412::1706467008::1::::<><>::
+::res://scene6/::1706466919
+AnimatedSprite2D.gd::GDScript::-1::1706449977::0::1::::<>AnimatedSprite2D<>::
+AudioStreamPlayer.gd::GDScript::-1::1706449977::0::1::::<>AudioStreamPlayer<>::
+background.png::CompressedTexture2D::2216693883257200633::1706449977::1706467010::1::::<><>::
+CharacterBody2D.gd::GDScript::-1::1706449977::0::1::::<>CharacterBody2D<>::
+Hole.gd::GDScript::-1::1706449977::0::1::::<>CollisionShape2D<>::
+icon.svg::CompressedTexture2D::1875111388365934559::1706449977::1706467008::1::::<><>::
+Illusion2.gd::GDScript::-1::1706449977::0::1::::<>TextureRect<>::
+Illusion.gd::GDScript::-1::1706449977::0::1::::<>StaticBody2D<>::
+InvisiblePit.gd::GDScript::-1::1706449977::0::1::::<>StaticBody2D<>::
+invisiblePlatform.gd::GDScript::-1::1706449977::0::1::::<>StaticBody2D<>::
+next.gd::GDScript::-1::1706466492::0::1::::<>Area2D<>::
+player.gd::GDScript::-1::1706449977::0::1::::<>Node2D<>::
+player.tscn::PackedScene::6459885011749328346::1706449977::0::1::::<><>::res://player.gd<>uid://6t1vh2gp8esn::::res://background.png<>res://CharacterBody2D.gd<>res://AnimatedSprite2D.gd<>uid://ctyxd6arxmur3::::res://Player/Carré.png<>uid://ck1cq754kru2n::::res://Player/Player/courir 1.png<>uid://cm2utxvge4xym::::res://Soundboard/fume.mp3<>uid://dyewjx1402w2d::::res://Player/Player/courir 2.png<>uid://dabknwvvrjhbd::::res://Player/Player/normal.png<>res://AudioStreamPlayer.gd
+Scene1.tscn::PackedScene::4589514128021135919::1706449977::0::1::::<><>::uid://6t1vh2gp8esn::::res://background.png<>res://Player/plateforme.png<>res://scene4_StaticBody2D1.gd<>res://Player/piques.png<>res://CharacterBody2D.gd<>uid://ck1cq754kru2n::::res://Player/Player/courir 1.png<>uid://dyewjx1402w2d::::res://Player/Player/courir 2.png<>uid://dabknwvvrjhbd::::res://Player/Player/normal.png<>res://AnimatedSprite2D.gd<>uid://cm2utxvge4xym::::res://Soundboard/fume.mp3<>res://AudioStreamPlayer.gd
+Scene4.tscn::PackedScene::3027567719438492302::1706449977::0::1::::<><>::uid://6t1vh2gp8esn::::res://background.png<>uid://mi3p36c4dxtn::::res://Player/plateforme.png<>res://scene4_StaticBody2D1.gd<>res://CharacterBody2D.gd<>res://scene4_StaticBody2D.gd<>uid://ck1cq754kru2n::::res://Player/Player/courir 1.png<>uid://dyewjx1402w2d::::res://Player/Player/courir 2.png<>uid://dabknwvvrjhbd::::res://Player/Player/normal.png<>res://AnimatedSprite2D.gd<>uid://cm2utxvge4xym::::res://Soundboard/fume.mp3<>res://AudioStreamPlayer.gd<>uid://cxyhum06fn30l::::res://Player/PNJ.png<>uid://d0r1n3pyipan7::::res://Player/textPNJ_scene4.png
+scene4_StaticBody2D1.gd::GDScript::-1::1706449977::0::1::::<>StaticBody2D<>::
+scene4_StaticBody2D.gd::GDScript::-1::1706449977::0::1::::<>StaticBody2D<>::
+Scene6.tscn::PackedScene::1253790837138745482::1706466919::0::1::::<><>::uid://6t1vh2gp8esn::::res://scene6/background.png<>uid://mi3p36c4dxtn::::res://scene6/Player/plateforme.png<>res://CharacterBody2D.gd<>uid://b3qvlk53afuh0::::res://scene6/Player/keshua/keshua1.png<>uid://ck1cq754kru2n::::res://scene6/Player/Player/courir 1.png<>uid://ccgshbsrgq60j::::res://scene6/Player/keshua/keshua2.png<>uid://dyewjx1402w2d::::res://scene6/Player/Player/courir 2.png<>uid://dabknwvvrjhbd::::res://scene6/Player/Player/normal.png<>uid://bfa36istldmdi::::res://scene6/Player/keshua/keshua3.png<>res://AnimatedSprite2D.gd<>uid://cm2utxvge4xym::::res://scene6/Soundboard/fume.mp3<>res://AudioStreamPlayer.gd<>uid://cwhvyae1t0avu::::res://scene6/Player/sang.png<>uid://b5h488e2svl8d::::res://scene6/Player/voiture.png<>res://scene6/next.gd
+spikePit.gd::GDScript::-1::1706449977::0::1::::<>StaticBody2D<>::
+StaticBody2D.gd::GDScript::-1::1706449977::0::1::::<>StaticBody2D<>::
+TextureRect.gd::GDScript::-1::1706449977::0::1::::<>TextureRect<>::
+::res://scene6/Player/::1706463647
+Carré.png::CompressedTexture2D::6157377939849083166::1706449977::1706467009::1::::<><>::
+piques.png::CompressedTexture2D::8197421201292332296::1706449977::1706467009::1::::<><>::
+plateforme.png::CompressedTexture2D::860509527067411927::1706449977::1706467009::1::::<><>::
+PNJ.png::CompressedTexture2D::6437191242301880869::1706449977::1706467010::1::::<><>::
+sang.png::CompressedTexture2D::6332764494990058646::1706449977::1706467010::1::::<><>::
+textPNJ_scene4.png::CompressedTexture2D::8950680915909421842::1706449977::1706467009::1::::<><>::
+voiture.png::CompressedTexture2D::4508358101803002169::1706449977::1706467009::1::::<><>::
+::res://scene6/Player/clope/::1706463647
+1.png::CompressedTexture2D::1963791451728545244::1706449977::1706467009::1::::<><>::
+2.png::CompressedTexture2D::2521079876417414319::1706449977::1706467009::1::::<><>::
+3.png::CompressedTexture2D::401729466508928607::1706449977::1706467009::1::::<><>::
+4.png::CompressedTexture2D::7685311363589150271::1706449977::1706467009::1::::<><>::
+5.png::CompressedTexture2D::1091105320176032480::1706449977::1706467009::1::::<><>::
+::res://scene6/Player/keshua/::1706463647
+keshua1.png::CompressedTexture2D::4386033623054059519::1706449977::1706467010::1::::<><>::
+keshua2.png::CompressedTexture2D::4926710808724671575::1706449977::1706467010::1::::<><>::
+keshua3.png::CompressedTexture2D::2739120786163161030::1706449977::1706467010::1::::<><>::
+::res://scene6/Player/Player/::1706463647
+courir 1.png::CompressedTexture2D::5528555360483111355::1706449977::1706467009::1::::<><>::
+courir 2.png::CompressedTexture2D::8853404904948417145::1706449977::1706467009::1::::<><>::
+ninho.png::CompressedTexture2D::1444783728574211450::1706449977::1706467010::1::::<><>::
+normal.png::CompressedTexture2D::7161958003013610617::1706449977::1706467010::1::::<><>::
+::res://scene6/Soundboard/::1706463647
+c'était chaud ouu.mp3::AudioStreamMP3::4268925837230417300::1706449977::1706467008::1::::<><>::
+c'était evident.mp3::AudioStreamMP3::2666214605513893871::1706449977::1706467008::1::::<><>::
+fume.mp3::AudioStreamMP3::5672095201098798144::1706449977::1706467008::1::::<><>::
+ouais pas mal.mp3::AudioStreamMP3::4741598554447894819::1706449977::1706467008::1::::<><>::
+pfff mec t'es trop guez.mp3::AudioStreamMP3::3488903622009872125::1706449977::1706467008::1::::<><>::
+pier ouin ouin.mp3::AudioStreamMP3::443893356199624598::1706449977::1706467008::1::::<><>::
+Till2.mp3::AudioStreamMP3::6792756996428381193::1706449977::1706467008::1::::<><>::
+till.mp3::AudioStreamMP3::3063530850337140643::1706449977::1706467008::1::::<><>::
+::res://scene7/::1706466919
+AnimatedSprite2D.gd::GDScript::-1::1706455019::0::1::::<>AnimatedSprite2D<>::
+Area2D2.gd::GDScript::-1::1706455019::0::1::::<>Area2D<>::
+Area2D.gd::GDScript::-1::1706455019::0::1::::<>Area2D<>::
+AudioStreamPlayer.gd::GDScript::-1::1706455019::0::1::::<>AudioStreamPlayer<>::
+background.png::CompressedTexture2D::2216693883257200633::1706455019::1706467009::1::::<><>::
+CharacterBody2D.gd::GDScript::-1::1706455019::0::1::::<>CharacterBody2D<>::
+courir1bottes.png::CompressedTexture2D::8634761163872111175::1706455019::1706467009::1::::<><>::
+icon.svg::CompressedTexture2D::1875111388365934559::1706455019::1706467009::1::::<><>::
+normalbottes.png::CompressedTexture2D::256840952934307331::1706455019::1706467009::1::::<><>::
+player.gd::GDScript::-1::1706455019::0::1::::<>Node2D<>::
+player.tscn::PackedScene::6459885011749328346::1706466919::0::1::::<><>::res://scene7/player.gd<>uid://6t1vh2gp8esn::::res://scene7/background.png<>res://scene7/CharacterBody2D.gd<>uid://d3n7gv2iu4iln::::res://scene7/Player/wall.png<>res://scene7/AnimatedSprite2D.gd<>uid://dwoeryiptj36::::res://scene7/normalbottes.png<>uid://ctyxd6arxmur3::::res://scene7/Player/Carré.png<>uid://ck1cq754kru2n::::res://scene7/Player/Player/courir 1.png<>uid://cm2utxvge4xym::::res://scene7/Soundboard/fume.mp3<>uid://dyewjx1402w2d::::res://scene7/Player/Player/courir 2.png<>uid://cioy5qohyssax::::res://scene7/Player/Player/courir1bottes.png<>uid://dabknwvvrjhbd::::res://scene7/Player/Player/normal.png<>res://scene7/AudioStreamPlayer.gd<>uid://cf70kk3h0222f::::res://scene7/Player/Player/courir2bottes.png<>res://scene7/Area2D.gd<>uid://byovyyxmpcrp6::::res://scene7/Player/Player/mort.png<>uid://baemsigmmejeg::::res://scene7/Player/bott.png<>res://scene7/Area2D2.gd<>uid://bt2jhbvagwslr::::res://scene7/Soundboard/malocrane.mp3
+StaticBody2D.gd::GDScript::-1::1706455019::0::1::::<>StaticBody2D<>::
+TextureRect.gd::GDScript::-1::1706455019::0::1::::<>TextureRect<>::
+::res://scene7/Player/::1706464203
+bott.png::CompressedTexture2D::2395439372929882386::1706455019::1706467009::1::::<><>::
+Carré.png::CompressedTexture2D::6157377939849083166::1706455019::1706467009::1::::<><>::
+wall.png::CompressedTexture2D::9153341387370375051::1706455019::1706467009::1::::<><>::
+::res://scene7/Player/clope/::1706464203
+1.png::CompressedTexture2D::1963791451728545244::1706455019::1706467009::1::::<><>::
+2.png::CompressedTexture2D::2521079876417414319::1706455019::1706467009::1::::<><>::
+3.png::CompressedTexture2D::401729466508928607::1706455019::1706467009::1::::<><>::
+4.png::CompressedTexture2D::7685311363589150271::1706455019::1706467009::1::::<><>::
+5.png::CompressedTexture2D::1091105320176032480::1706455019::1706467009::1::::<><>::
+::res://scene7/Player/Player/::1706464203
+courir1bottes.png::CompressedTexture2D::5364765049042552527::1706455019::1706467009::1::::<><>::
+courir2bottes.png::CompressedTexture2D::5191382025305062223::1706455019::1706467009::1::::<><>::
+courir 1.png::CompressedTexture2D::5528555360483111355::1706455019::1706467009::1::::<><>::
+courir 2.png::CompressedTexture2D::8853404904948417145::1706455019::1706467009::1::::<><>::
+mort.png::CompressedTexture2D::4101173432120802337::1706455019::1706467009::1::::<><>::
+ninho.png::CompressedTexture2D::1444783728574211450::1706455019::1706467009::1::::<><>::
+normal.png::CompressedTexture2D::7161958003013610617::1706455019::1706467009::1::::<><>::
+::res://scene7/Soundboard/::1706464202
+c'était chaud ouu.mp3::AudioStreamMP3::4268925837230417300::1706455019::1706467008::1::::<><>::
+c'était evident.mp3::AudioStreamMP3::2666214605513893871::1706455019::1706467008::1::::<><>::
+fume.mp3::AudioStreamMP3::5672095201098798144::1706455019::1706467008::1::::<><>::
+malocrane.mp3::AudioStreamMP3::3776305950640709535::1706455019::1706467008::1::::<><>::
+ouais pas mal.mp3::AudioStreamMP3::4741598554447894819::1706455019::1706467008::1::::<><>::
+pfff mec t'es trop guez.mp3::AudioStreamMP3::3488903622009872125::1706455019::1706467008::1::::<><>::
+pier ouin ouin.mp3::AudioStreamMP3::443893356199624598::1706455019::1706467008::1::::<><>::
+Till2.mp3::AudioStreamMP3::6792756996428381193::1706455019::1706467008::1::::<><>::
+till.mp3::AudioStreamMP3::3063530850337140643::1706455019::1706467008::1::::<><>::
+::res://Soundboard/::1706457520
+c'était chaud ouu.mp3::AudioStreamMP3::4268925837230417300::1706434804::1706467008::1::::<><>::
+c'était evident.mp3::AudioStreamMP3::2666214605513893871::1706434804::1706467008::1::::<><>::
+fume.mp3::AudioStreamMP3::5672095201098798144::1706434804::1706467008::1::::<><>::
+ouais pas mal.mp3::AudioStreamMP3::4741598554447894819::1706434804::1706467008::1::::<><>::
+pfff mec t'es trop guez.mp3::AudioStreamMP3::3488903622009872125::1706434804::1706467008::1::::<><>::
+pier ouin ouin.mp3::AudioStreamMP3::443893356199624598::1706434804::1706467008::1::::<><>::
+Till2.mp3::AudioStreamMP3::6792756996428381193::1706434804::1706467008::1::::<><>::
+till.mp3::AudioStreamMP3::3063530850337140643::1706434804::1706467008::1::::<><>::

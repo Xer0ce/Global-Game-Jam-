@@ -1,0 +1,43 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1706454860
+AnimatedSprite2D.gd::GDScript::-1::1706328576::0::1::::<>AnimatedSprite2D<>::
+AudioStreamPlayer.gd::GDScript::-1::1706328576::0::1::::<>AudioStreamPlayer<>::
+background.png::CompressedTexture2D::2216693883257200633::1706328576::1706438294::1::::<><>::
+CharacterBody2D.gd::GDScript::-1::1706454197::0::1::::<>CharacterBody2D<>::
+courir1bottes.png::CompressedTexture2D::8634761163872111175::1706452455::1706452455::1::::<><>::
+icon.svg::CompressedTexture2D::1875111388365934559::1706328576::1706438294::1::::<><>::
+normalbottes.png::CompressedTexture2D::256840952934307331::1706444884::1706444879::1::::<><>::
+player.gd::GDScript::-1::1706443546::0::1::::<>Node2D<>::
+player.tscn::PackedScene::6459885011749328346::1706454860::0::1::::<><>::res://player.gd<>uid://6t1vh2gp8esn::::res://background.png<>res://CharacterBody2D.gd<>uid://d3n7gv2iu4iln::::res://Player/wall.png<>res://AnimatedSprite2D.gd<>uid://dwoeryiptj36::::res://normalbottes.png<>uid://ctyxd6arxmur3::::res://Player/Carré.png<>uid://ck1cq754kru2n::::res://Player/Player/courir 1.png<>uid://cm2utxvge4xym::::res://Soundboard/fume.mp3<>uid://dyewjx1402w2d::::res://Player/Player/courir 2.png<>uid://dva0iwth5pk2r::::res://courir1bottes.png<>uid://dabknwvvrjhbd::::res://Player/Player/normal.png<>res://AudioStreamPlayer.gd<>uid://cf70kk3h0222f::::res://Player/Player/courir2bottes.png<>res://Area2D.gd<>uid://byovyyxmpcrp6::::res://Player/Player/mort.png<>uid://baemsigmmejeg::::res://Player/bott.png<>res://Area2D2.gd
+Area2D.gd::GDScript::-1::1706452709::0::1::::<>Area2D<>::
+Area2D2.gd::GDScript::-1::1706454860::0::1::::<>Area2D<>::
+StaticBody2D.gd::GDScript::-1::1706328576::0::1::::<>StaticBody2D<>::
+TextureRect.gd::GDScript::-1::1706328576::0::1::::<>TextureRect<>::
+::res://Player/::1706443125
+bott.png::CompressedTexture2D::2395439372929882386::1706443110::1706443125::1::::<><>::
+Carré.png::CompressedTexture2D::6157377939849083166::1706328576::1706438294::1::::<><>::
+wall.png::CompressedTexture2D::9153341387370375051::1706436145::1706438465::1::::<><>::
+::res://Player/clope/::1706438294
+1.png::CompressedTexture2D::1963791451728545244::1706328576::1706438294::1::::<><>::
+2.png::CompressedTexture2D::2521079876417414319::1706328576::1706438294::1::::<><>::
+3.png::CompressedTexture2D::401729466508928607::1706328576::1706438294::1::::<><>::
+4.png::CompressedTexture2D::7685311363589150271::1706328576::1706438294::1::::<><>::
+5.png::CompressedTexture2D::1091105320176032480::1706328576::1706438294::1::::<><>::
+::res://Player/Player/::1706453599
+courir1bottes.png::CompressedTexture2D::5364765049042552527::1706452152::1706452425::1::::<><>::
+courir2bottes.png::CompressedTexture2D::5191382025305062223::1706452376::1706452425::1::::<><>::
+courir 1.png::CompressedTexture2D::5528555360483111355::1706328576::1706438294::1::::<><>::
+courir 2.png::CompressedTexture2D::8853404904948417145::1706328576::1706438294::1::::<><>::
+mort.png::CompressedTexture2D::4101173432120802337::1706453570::1706453599::1::::<><>::
+ninho.png::CompressedTexture2D::1444783728574211450::1706328576::1706438294::1::::<><>::
+normal.png::CompressedTexture2D::7161958003013610617::1706328576::1706438294::1::::<><>::
+::res://Soundboard/::1706454904
+c'était chaud ouu.mp3::AudioStreamMP3::4268925837230417300::1706328576::1706438293::1::::<><>::
+c'était evident.mp3::AudioStreamMP3::2666214605513893871::1706328576::1706438293::1::::<><>::
+fume.mp3::AudioStreamMP3::5672095201098798144::1706328576::1706438293::1::::<><>::
+malocrane.mp3::AudioStreamMP3::3776305950640709535::1706454756::1706454905::1::::<><>::
+ouais pas mal.mp3::AudioStreamMP3::4741598554447894819::1706328576::1706438293::1::::<><>::
+pfff mec t'es trop guez.mp3::AudioStreamMP3::3488903622009872125::1706328576::1706438293::1::::<><>::
+pier ouin ouin.mp3::AudioStreamMP3::443893356199624598::1706328576::1706438293::1::::<><>::
+Till2.mp3::AudioStreamMP3::6792756996428381193::1706328576::1706438293::1::::<><>::
+till.mp3::AudioStreamMP3::3063530850337140643::1706328576::1706438293::1::::<><>::

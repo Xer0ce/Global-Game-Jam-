@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://gla4gxiosy5k"
+path="res://.godot/imported/pier ouin ouin.mp3-083b17faf30af96181a5dbc132a4beb0.mp3str"
+
+[deps]
+
+source_file="res://main/Soundboard/pier ouin ouin.mp3"
+dest_files=["res://.godot/imported/pier ouin ouin.mp3-083b17faf30af96181a5dbc132a4beb0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

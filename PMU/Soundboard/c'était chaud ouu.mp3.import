@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b125t5curdn61"
+path="res://.godot/imported/c'était chaud ouu.mp3-8d14fd5d846674eed2c6bdde51917e73.mp3str"
+
+[deps]
+
+source_file="res://PMU/Soundboard/c'était chaud ouu.mp3"
+dest_files=["res://.godot/imported/c'était chaud ouu.mp3-8d14fd5d846674eed2c6bdde51917e73.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

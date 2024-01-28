@@ -1,0 +1,255 @@
+[gd_scene load_steps=32 format=3 uid="uid://dusipdkt8dmmi"]
+
+[ext_resource type="Script" path="res://scene2/Scenes/scene_2.gd" id="1_2doup"]
+[ext_resource type="Texture2D" uid="uid://6t1vh2gp8esn" path="res://scene6/background.png" id="1_45n6n"]
+[ext_resource type="Script" path="res://scene2/CharacterBody2D.gd" id="2_sp63h"]
+[ext_resource type="Texture2D" uid="uid://ck1cq754kru2n" path="res://scene6/Player/Player/courir 1.png" id="3_ibg07"]
+[ext_resource type="Texture2D" uid="uid://dyewjx1402w2d" path="res://scene6/Player/Player/courir 2.png" id="4_r08j1"]
+[ext_resource type="Texture2D" uid="uid://dabknwvvrjhbd" path="res://scene6/Player/Player/normal.png" id="5_kvddv"]
+[ext_resource type="Script" path="res://scene2/AnimatedSprite2D.gd" id="6_plvq8"]
+[ext_resource type="Texture2D" uid="uid://bo8dbuedfbspl" path="res://scene2/Player/floor.png" id="7_1iybn"]
+[ext_resource type="Texture2D" uid="uid://b2bv0ucylgb25" path="res://scene2/Player/spikes.png" id="8_yuwom"]
+[ext_resource type="Texture2D" uid="uid://tcmc3lp7kdtm" path="res://scene2/Player/licorne_vivant.png" id="9_pdadu"]
+[ext_resource type="Texture2D" uid="uid://8foltrg41e7w" path="res://scene2/Player/licorne_mort.png" id="11_m4f24"]
+[ext_resource type="AudioStream" uid="uid://cq63vurs2jhrc" path="res://scene2/Soundboard/touchlicorne.mp3" id="11_pfhmg"]
+[ext_resource type="AudioStream" uid="uid://cm2utxvge4xym" path="res://scene6/Soundboard/fume.mp3" id="12_8q5ac"]
+[ext_resource type="Script" path="res://scene2/AudioStreamPlayer.gd" id="13_o5es0"]
+[ext_resource type="AudioStream" uid="uid://bx6b71t6ljv25" path="res://scene2/Soundboard/2_walking_sound_effect.mp3" id="15_idnbg"]
+[ext_resource type="Script" path="res://scene2/Scenes/next.gd" id="16_4mxxx"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6tyrp"]
+load_path = "res://.godot/imported/1.png-0bee3f90c2d93ab3ba2753209f6c998b.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ol27f"]
+load_path = "res://.godot/imported/2.png-bfadd8ebfc9fe08b4e165c4cd6b98427.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ihgsp"]
+load_path = "res://.godot/imported/3.png-c364ce9d890580684e5ccdd7111bd657.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_bxgvj"]
+load_path = "res://.godot/imported/4.png-f6788901633b070ff7ecbe1d3f96ddff.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_s1xd4"]
+load_path = "res://.godot/imported/5.png-10d1d8e6ab3b015fe7ff58f25529718f.ctex"
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tkqfh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_6tyrp")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_ol27f")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_ihgsp")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_bxgvj")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_s1xd4")
+}],
+"loop": true,
+"name": &"clope",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_ibg07")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_r08j1")
+}],
+"loop": true,
+"name": &"courir",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_kvddv")
+}],
+"loop": true,
+"name": &"default",
+"speed": 20.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jpuyx"]
+size = Vector2(16, 1084)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_soced"]
+size = Vector2(2005, 7)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_70im6"]
+size = Vector2(900, 360)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k4fll"]
+size = Vector2(509, 150)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8cfxd"]
+size = Vector2(411, 63)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7jaox"]
+size = Vector2(512, 17)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ps611"]
+size = Vector2(11, 11)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_c71gk"]
+resource_local_to_scene = true
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_pdadu")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_m4f24")
+}],
+"loop": true,
+"name": &"killed_player",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k0by6"]
+size = Vector2(41.75, 695)
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_2doup")
+
+[node name="Background" type="Node2D" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Background"]
+offset_right = 1922.0
+offset_bottom = 1080.0
+texture = ExtResource("1_45n6n")
+
+[node name="Player" type="CharacterBody2D" parent="."]
+script = ExtResource("2_sp63h")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Player"]
+position = Vector2(203.688, 602.875)
+scale = Vector2(0.19576, 0.196846)
+sprite_frames = SubResource("SpriteFrames_tkqfh")
+animation = &"courir"
+script = ExtResource("6_plvq8")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Player"]
+polygon = PackedVector2Array(170, 501, 160, 509, 156, 517, 155, 527, 157, 537, 161, 542, 164, 547, 175, 555, 181, 558, 177, 562, 170, 567, 162, 570, 157, 575, 152, 582, 149, 590, 147, 599, 146, 608, 144, 621, 145, 641, 164, 644, 169, 635, 166, 621, 167, 610, 170, 606, 172, 604, 171, 610, 171, 616, 171, 622, 171, 627, 173, 632, 173, 637, 174, 646, 174, 652, 176, 654, 174, 712, 177, 715, 203, 718, 212, 717, 222, 715, 224, 708, 243, 706, 248, 702, 249, 692, 249, 686, 246, 681, 240, 678, 232, 678, 225, 678, 222, 677, 226, 654, 230, 651, 231, 644, 228, 628, 224, 613, 224, 607, 227, 606, 229, 612, 234, 617, 235, 626, 245, 642, 261, 644, 268, 639, 269, 628, 262, 611, 252, 593, 243, 580, 236, 574, 225, 571, 217, 566, 211, 561, 219, 559, 227, 556, 228, 551, 231, 540, 226, 521, 221, 516, 216, 511, 206, 507, 208, 502, 199, 498, 192, 498, 181, 498, 172, 500)
+
+[node name="SceneBox" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="SceneBox"]
+position = Vector2(8, 536)
+shape = SubResource("RectangleShape2D_jpuyx")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="SceneBox"]
+position = Vector2(1921, 539)
+shape = SubResource("RectangleShape2D_jpuyx")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="SceneBox"]
+position = Vector2(931, 1079)
+shape = SubResource("RectangleShape2D_soced")
+
+[node name="Floor_2" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor_2"]
+position = Vector2(1466, 935)
+shape = SubResource("RectangleShape2D_70im6")
+debug_color = Color(0.717647, 0.458824, 0.392157, 0.419608)
+
+[node name="TextureRect" type="TextureRect" parent="Floor_2"]
+offset_left = 996.0
+offset_top = 656.0
+offset_right = 2009.0
+offset_bottom = 2114.0
+texture = ExtResource("7_1iybn")
+
+[node name="Floor_1" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor_1"]
+position = Vector2(264.5, 830)
+shape = SubResource("RectangleShape2D_k4fll")
+debug_color = Color(0.717647, 0.458824, 0.392157, 0.419608)
+
+[node name="TextureRect" type="TextureRect" parent="Floor_1"]
+offset_left = 16.0
+offset_top = 731.0
+offset_right = 521.0
+offset_bottom = 908.0
+texture = ExtResource("7_1iybn")
+
+[node name="Spikes" type="StaticBody2D" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Spikes"]
+offset_left = 496.0
+offset_top = 929.0
+offset_right = 1068.0
+offset_bottom = 1145.0
+texture = ExtResource("8_yuwom")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Spikes"]
+polygon = PackedVector2Array(522, 1045, 534, 997, 571, 996, 586, 1039, 628, 988, 660, 985, 686, 1039, 725, 989, 771, 971, 811, 1018, 816, 1038, 855, 966, 886, 966, 896, 997, 925, 938, 965, 943, 965, 977, 975, 1002, 1036, 930, 1057, 959, 1061, 1114, 491, 1146, 498, 1069)
+
+[node name="Fake_Plateform" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fake_Plateform"]
+position = Vector2(767, 470)
+shape = SubResource("RectangleShape2D_8cfxd")
+debug_color = Color(0.717647, 0.458824, 0.392157, 0.419608)
+
+[node name="TextureRect" type="TextureRect" parent="Fake_Plateform"]
+offset_left = 552.0
+offset_top = 427.0
+offset_right = 972.0
+offset_bottom = 502.0
+texture = ExtResource("7_1iybn")
+expand_mode = 1
+
+[node name="Invisible_Floor" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Invisible_Floor"]
+position = Vector2(766, 763.5)
+shape = SubResource("RectangleShape2D_7jaox")
+debug_color = Color(0.717647, 0.458824, 0.392157, 0.419608)
+
+[node name="Dick_Tip" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Dick_Tip"]
+position = Vector2(1439.5, 508.5)
+shape = SubResource("RectangleShape2D_ps611")
+debug_color = Color(0.717647, 0.458824, 0.392157, 0.419608)
+
+[node name="Unicorn" type="StaticBody2D" parent="."]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Unicorn"]
+position = Vector2(1572, 635)
+scale = Vector2(0.678, 0.678)
+sprite_frames = SubResource("SpriteFrames_c71gk")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Unicorn"]
+polygon = PackedVector2Array(1430, 516, 1437, 538, 1451, 550, 1441, 556, 1437, 557, 1430, 556, 1428, 560, 1443, 566, 1453, 573, 1460, 577, 1469, 576, 1463, 587, 1451, 595, 1440, 604, 1436, 613, 1439, 621, 1445, 627, 1453, 628, 1449, 636, 1451, 644, 1456, 649, 1464, 652, 1473, 651, 1478, 651, 1480, 658, 1474, 667, 1473, 679, 1473, 684, 1474, 710, 1468, 725, 1456, 738, 1456, 761, 1522, 755, 1525, 702, 1597, 710, 1590, 751, 1593, 756, 1664, 755, 1665, 701, 1681, 702, 1687, 682, 1704, 681, 1717, 637, 1702, 637, 1701, 628, 1674, 606, 1652, 606, 1632, 619, 1623, 633, 1620, 637, 1582, 634, 1577, 614, 1546, 607, 1544, 570, 1537, 564, 1537, 540, 1526, 539, 1512, 546, 1495, 535, 1472, 539, 1454, 516)
+
+[node name="licorne" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11_pfhmg")
+
+[node name="smoke" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("12_8q5ac")
+script = ExtResource("13_o5es0")
+
+[node name="walking" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("15_idnbg")
+volume_db = 11.064
+
+[node name="next" type="Area2D" parent="."]
+script = ExtResource("16_4mxxx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="next"]
+position = Vector2(1883.88, 360.5)
+shape = SubResource("RectangleShape2D_k0by6")
+
+[connection signal="body_entered" from="next" to="next" method="_on_body_entered"]

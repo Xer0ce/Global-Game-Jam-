@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bpyby6iwplrqr"
+path="res://.godot/imported/pfff mec t'es trop guez.mp3-3720fd7571335071c79602f9664efa28.mp3str"
+
+[deps]
+
+source_file="res://scene1/Soundboard/pfff mec t'es trop guez.mp3"
+dest_files=["res://.godot/imported/pfff mec t'es trop guez.mp3-3720fd7571335071c79602f9664efa28.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

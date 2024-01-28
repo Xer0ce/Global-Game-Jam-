@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bd8sfu0yems3p"
+path="res://.godot/imported/c'était evident.mp3-771ab71cb593c7f14714d7a3268139b4.mp3str"
+
+[deps]
+
+source_file="res://Soundboard/c'était evident.mp3"
+dest_files=["res://.godot/imported/c'était evident.mp3-771ab71cb593c7f14714d7a3268139b4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

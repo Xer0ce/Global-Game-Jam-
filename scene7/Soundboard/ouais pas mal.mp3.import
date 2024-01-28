@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b8s4o2mmgki0b"
+path="res://.godot/imported/ouais pas mal.mp3-c94a87372626f7be31b2a7f96f294830.mp3str"
+
+[deps]
+
+source_file="res://scene7/Soundboard/ouais pas mal.mp3"
+dest_files=["res://.godot/imported/ouais pas mal.mp3-c94a87372626f7be31b2a7f96f294830.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

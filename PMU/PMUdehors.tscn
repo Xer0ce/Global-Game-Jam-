@@ -1,0 +1,187 @@
+[gd_scene load_steps=27 format=3 uid="uid://psyy33xwevy6"]
+
+[ext_resource type="Texture2D" uid="uid://6t1vh2gp8esn" path="res://PMU/background.png" id="1_n4e4t"]
+[ext_resource type="Texture2D" uid="uid://b3qvlk53afuh0" path="res://PMU/Player/keshua/keshua1.png" id="3_spkil"]
+[ext_resource type="Texture2D" uid="uid://ccgshbsrgq60j" path="res://PMU/Player/keshua/keshua2.png" id="4_fg4wv"]
+[ext_resource type="Script" path="res://PMU/PMU_CollisionShape2D6.gd" id="5_64qhw"]
+[ext_resource type="Texture2D" uid="uid://bfa36istldmdi" path="res://PMU/Player/keshua/keshua3.png" id="5_vedxr"]
+[ext_resource type="Script" path="res://PMU/PMUdehors_Player.gd" id="6_qoibn"]
+[ext_resource type="Texture2D" uid="uid://ck1cq754kru2n" path="res://PMU/Player/Player/courir 1.png" id="6_s4mmp"]
+[ext_resource type="Texture2D" uid="uid://dyewjx1402w2d" path="res://PMU/Player/Player/courir 2.png" id="7_psbu7"]
+[ext_resource type="Texture2D" uid="uid://dabknwvvrjhbd" path="res://PMU/Player/Player/normal.png" id="8_u1wso"]
+[ext_resource type="Script" path="res://PMU/AnimatedSprite2D.gd" id="9_44tlu"]
+[ext_resource type="AudioStream" uid="uid://cm2utxvge4xym" path="res://PMU/Soundboard/fume.mp3" id="10_cj4t8"]
+[ext_resource type="Script" path="res://AudioStreamPlayer.gd" id="11_djng1"]
+[ext_resource type="Texture2D" uid="uid://mi3p36c4dxtn" path="res://PMU/Player/plateforme.png" id="12_lcq72"]
+[ext_resource type="Texture2D" uid="uid://dg7t0he3jxg61" path="res://PMU/Player/PMU.png" id="13_pphgl"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mm5yw"]
+size = Vector2(16, 1084)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xc7op"]
+size = Vector2(2005, 7)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kn4lg"]
+size = Vector2(1894.5, 148)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ic7x3"]
+size = Vector2(312, 366)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_htix3"]
+size = Vector2(88, 167)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6tyrp"]
+load_path = "res://.godot/imported/1.png-0bee3f90c2d93ab3ba2753209f6c998b.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ol27f"]
+load_path = "res://.godot/imported/2.png-bfadd8ebfc9fe08b4e165c4cd6b98427.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ihgsp"]
+load_path = "res://.godot/imported/3.png-c364ce9d890580684e5ccdd7111bd657.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_bxgvj"]
+load_path = "res://.godot/imported/4.png-f6788901633b070ff7ecbe1d3f96ddff.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_s1xd4"]
+load_path = "res://.godot/imported/5.png-10d1d8e6ab3b015fe7ff58f25529718f.ctex"
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2y27y"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_spkil")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_fg4wv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_vedxr")
+}],
+"loop": true,
+"name": &"chaise keshua",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_6tyrp")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_ol27f")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_ihgsp")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_bxgvj")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_s1xd4")
+}],
+"loop": true,
+"name": &"clope",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_s4mmp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_psbu7")
+}],
+"loop": true,
+"name": &"courir",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_u1wso")
+}],
+"loop": true,
+"name": &"default",
+"speed": 20.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n6lmk"]
+size = Vector2(288, 380)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Node2D"]
+offset_top = -2.0
+offset_right = 1922.0
+offset_bottom = 1078.0
+texture = ExtResource("1_n4e4t")
+metadata/_edit_use_anchors_ = true
+
+[node name="gauche" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="gauche"]
+position = Vector2(8, 536)
+shape = SubResource("RectangleShape2D_mm5yw")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="gauche"]
+position = Vector2(1921, 539)
+shape = SubResource("RectangleShape2D_mm5yw")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="gauche"]
+position = Vector2(931, 1079)
+shape = SubResource("RectangleShape2D_xc7op")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("10_cj4t8")
+script = ExtResource("11_djng1")
+
+[node name="scene6_StaticBody2D1" type="StaticBody2D" parent="."]
+
+[node name="TextureRect3" type="TextureRect" parent="scene6_StaticBody2D1"]
+offset_left = -20.0
+offset_top = 896.0
+offset_right = 1918.0
+offset_bottom = 1073.0
+texture = ExtResource("12_lcq72")
+metadata/_edit_use_anchors_ = true
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="scene6_StaticBody2D1"]
+position = Vector2(967, 979)
+shape = SubResource("RectangleShape2D_kn4lg")
+debug_color = Color(0.717647, 0.458824, 0.392157, 0.419608)
+
+[node name="PMUdehors" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="PMUdehors"]
+position = Vector2(1718, 717)
+shape = SubResource("RectangleShape2D_ic7x3")
+debug_color = Color(0.717647, 0.458824, 0.392157, 0.419608)
+
+[node name="TextureRect" type="TextureRect" parent="PMUdehors"]
+offset_left = 1060.0
+offset_top = -256.0
+offset_right = 1915.0
+offset_bottom = 901.0
+texture = ExtResource("13_pphgl")
+
+[node name="Player" type="CharacterBody2D" parent="."]
+script = ExtResource("6_qoibn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+position = Vector2(132, 821)
+shape = SubResource("RectangleShape2D_htix3")
+debug_color = Color(0.976471, 0, 0.4, 0.278431)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Player"]
+position = Vector2(133, 821)
+scale = Vector2(0.142, 0.142)
+sprite_frames = SubResource("SpriteFrames_2y27y")
+script = ExtResource("9_44tlu")
+
+[node name="Area2D" type="Area2D" parent="."]
+script = ExtResource("5_64qhw")
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(1406, 710)
+shape = SubResource("RectangleShape2D_n6lmk")
+debug_color = Color(0.717647, 0.458824, 0.392157, 0.419608)
+
+[connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]
