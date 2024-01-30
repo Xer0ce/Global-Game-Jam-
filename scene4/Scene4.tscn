@@ -1,4 +1,4 @@
-[gd_scene load_steps=34 format=3 uid="uid://bjetulka555ju"]
+[gd_scene load_steps=36 format=3 uid="uid://bjetulka555ju"]
 
 [ext_resource type="Texture2D" uid="uid://6t1vh2gp8esn" path="res://scene7/background.png" id="1_i8peh"]
 [ext_resource type="Texture2D" uid="uid://mi3p36c4dxtn" path="res://scene6/Player/plateforme.png" id="2_oo5l3"]
@@ -18,6 +18,7 @@
 [ext_resource type="Texture2D" uid="uid://bdy7wcl7qkgim" path="res://PMU/Player/ClickGauche.png" id="15_c361o"]
 [ext_resource type="Texture2D" uid="uid://p0cjhaf2pccj" path="res://scene4/Player/Oui.png" id="16_otd8e"]
 [ext_resource type="Texture2D" uid="uid://clpfrck6628xi" path="res://scene4/Player/Non.png" id="17_vqvpq"]
+[ext_resource type="Script" path="res://scene1/mort.gd" id="19_xm2dl"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h0vr3"]
 size = Vector2(596, 148)
@@ -102,6 +103,9 @@ size = Vector2(105, 228)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0r38d"]
 size = Vector2(27, 119.75)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7vhes"]
+size = Vector2(1844, 22)
 
 [node name="Node2D" type="Node2D"]
 
@@ -270,4 +274,13 @@ script = ExtResource("14_ix175")
 position = Vector2(1850, 550)
 shape = SubResource("RectangleShape2D_0r38d")
 
+[node name="mort" type="Area2D" parent="."]
+script = ExtResource("19_xm2dl")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="mort"]
+position = Vector2(960, 1055)
+shape = SubResource("RectangleShape2D_7vhes")
+debug_color = Color(0.717647, 0.458824, 0.392157, 0.419608)
+
 [connection signal="body_entered" from="next" to="next" method="_on_body_entered"]
+[connection signal="body_entered" from="mort" to="mort" method="_on_body_entered"]

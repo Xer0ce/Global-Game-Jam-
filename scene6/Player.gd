@@ -11,6 +11,11 @@ var responded = true
 func _physics_process(delta):
 	# Réinitialiser la vitesse horizontale
 	velocity.x = 0
+	
+	if (visible == false):
+		get_tree().change_scene_to_file("res://menu.tscn")
+		OS.delay_msec(1000)
+		return
 
 	if Input.is_action_pressed("ui_right"):
 		velocity.x = speed

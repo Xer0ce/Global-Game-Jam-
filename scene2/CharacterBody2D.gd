@@ -55,13 +55,14 @@ func _physics_process(delta):
 					child.disabled = true
 					touch_top = true
 		if body.name == "Unicorn":
-			# kill player
 			for child in body.get_children():
 				if child.name == "AnimatedSprite2D":
 					child.play("killed_player")
+			get_tree().change_scene_to_file("res://menu.tscn")
+			return
 		if body.name == "Spikes":
-			# kill player
-			pass
+			get_tree().change_scene_to_file("res://menu.tscn")
+			return
 		if body.name == "Floor_2":
 			for child in body.get_children():
 				if child.name == "CollisionShape2D":

@@ -1,15 +1,16 @@
-[gd_scene load_steps=29 format=3 uid="uid://b6ngvk8t6xboh"]
+[gd_scene load_steps=30 format=3 uid="uid://b6ngvk8t6xboh"]
 
-[ext_resource type="Texture2D" uid="uid://6t1vh2gp8esn" path="res://scene6/background.png" id="1_6ksbq"]
+[ext_resource type="Texture2D" uid="uid://6t1vh2gp8esn" path="res://scene7/background.png" id="1_6ksbq"]
 [ext_resource type="Texture2D" uid="uid://mi3p36c4dxtn" path="res://scene6/Player/plateforme.png" id="2_jjvo6"]
-[ext_resource type="Script" path="res://scene1/scene4_StaticBody2D1.gd" id="3_oepw0"]
+[ext_resource type="Script" path="res://scene1/StaticBody2D.gd" id="3_oepw0"]
+[ext_resource type="Script" path="res://scene1/mort.gd" id="5_8w2m7"]
 [ext_resource type="Texture2D" uid="uid://do15lg6y4vf3e" path="res://scene6/Player/piques.png" id="5_m7c5h"]
 [ext_resource type="Script" path="res://scene1/CharacterBody2D.gd" id="6_b40dr"]
-[ext_resource type="Texture2D" uid="uid://ck1cq754kru2n" path="res://scene6/Player/Player/courir 1.png" id="7_cs0ic"]
-[ext_resource type="Texture2D" uid="uid://dyewjx1402w2d" path="res://scene6/Player/Player/courir 2.png" id="8_pkplt"]
-[ext_resource type="Texture2D" uid="uid://dabknwvvrjhbd" path="res://scene6/Player/Player/normal.png" id="9_66p6w"]
+[ext_resource type="Texture2D" uid="uid://ck1cq754kru2n" path="res://scene7/Player/Player/courir 1.png" id="7_cs0ic"]
+[ext_resource type="Texture2D" uid="uid://dyewjx1402w2d" path="res://scene7/Player/Player/courir 2.png" id="8_pkplt"]
+[ext_resource type="Texture2D" uid="uid://dabknwvvrjhbd" path="res://scene7/Player/Player/normal.png" id="9_66p6w"]
 [ext_resource type="Script" path="res://scene1/AnimatedSprite2D.gd" id="10_3o8fe"]
-[ext_resource type="AudioStream" uid="uid://cm2utxvge4xym" path="res://scene6/Soundboard/fume.mp3" id="11_wvkaw"]
+[ext_resource type="AudioStream" uid="uid://cm2utxvge4xym" path="res://scene7/Soundboard/fume.mp3" id="11_wvkaw"]
 [ext_resource type="Script" path="res://scene1/next.gd" id="12_fkfy2"]
 [ext_resource type="Script" path="res://AudioStreamPlayer.gd" id="12_kr1vj"]
 
@@ -223,10 +224,8 @@ texture = ExtResource("2_jjvo6")
 expand_mode = 1
 flip_h = true
 
-[node name="scene1_StaticBody2D" type="StaticBody2D" parent="."]
+[node name="TextureRect6" type="TextureRect" parent="."]
 visible = false
-
-[node name="TextureRect6" type="TextureRect" parent="scene1_StaticBody2D"]
 offset_left = 605.0
 offset_top = 925.0
 offset_right = 1427.0
@@ -234,7 +233,10 @@ offset_bottom = 1052.0
 texture = ExtResource("5_m7c5h")
 expand_mode = 1
 
-[node name="CollisionShape2D5" type="CollisionShape2D" parent="scene1_StaticBody2D"]
+[node name="mort" type="Area2D" parent="."]
+script = ExtResource("5_8w2m7")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="mort"]
 position = Vector2(1016, 1010.5)
 shape = SubResource("RectangleShape2D_s33n4")
 debug_color = Color(0.717647, 0.458824, 0.392157, 0.419608)
@@ -279,4 +281,5 @@ script = ExtResource("12_fkfy2")
 position = Vector2(1883.88, 310.75)
 shape = SubResource("RectangleShape2D_j5f2f")
 
+[connection signal="body_entered" from="mort" to="mort" method="_on_body_entered"]
 [connection signal="body_entered" from="next" to="next" method="_on_body_entered"]

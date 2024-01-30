@@ -12,7 +12,8 @@ func _physics_process(delta):
 			responded = true
 		elif Input.is_action_pressed("action_no"):
 			responded = true
-			#tuer perso
+			get_tree().change_scene_to_file("res://menu.tscn")
+			return
 		else:
 			velocity.x = 0
 			velocity.y += gravity * delta

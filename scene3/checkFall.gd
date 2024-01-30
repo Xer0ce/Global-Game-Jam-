@@ -26,4 +26,6 @@ func _on_body_entered(body):
 			node_sang.visible = true
 			node_chut.play()
 			node_scratch.play()
+			get_tree().change_scene_to_file("res://menu.tscn")
+			return
 		caca = false

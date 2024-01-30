@@ -13,7 +13,8 @@ func _physics_process(delta):
 		$AnimatedSprite2D.play("default")
 		if Input.is_action_just_pressed("action_yes"):
 			responded = true
-			print("dead") #remplacer par mort
+			get_tree().change_scene_to_file("res://menu.tscn")
+			return
 		elif Input.is_action_just_pressed("action_no"):
 			responded = true
 			get_tree().quit()

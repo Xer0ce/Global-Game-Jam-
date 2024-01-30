@@ -57,6 +57,7 @@ func _physics_process(delta):
 			for child in body.get_children():
 				if child.name == "CollisionShape2D4":
 					child.disabled = true
+			get_node("../TextureRect6").visible = true
 		if body.name == "scene1_StaticBody2D2" || body.name == "scene1_StaticBody2D5":
 			body.visible = true
 		#if body.name == "scene1_StaticBody2D":            #décommenter ceci après avoir implementer mort
