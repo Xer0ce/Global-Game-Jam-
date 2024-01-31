@@ -1,14 +1,14 @@
-[gd_scene load_steps=33 format=3 uid="uid://cybhmk4rldn1k"]
+[gd_scene load_steps=35 format=3 uid="uid://cybhmk4rldn1k"]
 
 [ext_resource type="Script" path="res://scene7/player.gd" id="1_0mo1l"]
-[ext_resource type="Texture2D" uid="uid://6t1vh2gp8esn" path="res://scene7/background.png" id="1_71upt"]
+[ext_resource type="Texture2D" uid="uid://6t1vh2gp8esn" path="res://background.png" id="1_71upt"]
 [ext_resource type="Script" path="res://scene7/CharacterBody2D.gd" id="2_4d7kf"]
 [ext_resource type="Texture2D" uid="uid://d3n7gv2iu4iln" path="res://scene7/Player/wall.png" id="4_4ehyf"]
 [ext_resource type="Script" path="res://scene7/AnimatedSprite2D.gd" id="4_vd0c3"]
 [ext_resource type="Texture2D" uid="uid://dwoeryiptj36" path="res://scene7/normalbottes.png" id="6_o48gq"]
 [ext_resource type="Texture2D" uid="uid://ctyxd6arxmur3" path="res://scene7/Player/Carré.png" id="6_v01u2"]
 [ext_resource type="Texture2D" uid="uid://ck1cq754kru2n" path="res://scene7/Player/Player/courir 1.png" id="7_a6yb7"]
-[ext_resource type="AudioStream" uid="uid://cm2utxvge4xym" path="res://scene7/Soundboard/fume.mp3" id="8_nb08l"]
+[ext_resource type="AudioStream" uid="uid://cm2utxvge4xym" path="res://Soundboard/fume.mp3" id="8_nb08l"]
 [ext_resource type="Texture2D" uid="uid://dyewjx1402w2d" path="res://scene7/Player/Player/courir 2.png" id="8_qws5t"]
 [ext_resource type="Texture2D" uid="uid://cioy5qohyssax" path="res://scene7/Player/Player/courir1bottes.png" id="9_1b7pj"]
 [ext_resource type="Texture2D" uid="uid://dabknwvvrjhbd" path="res://scene7/Player/Player/normal.png" id="9_jci5p"]
@@ -19,6 +19,7 @@
 [ext_resource type="Texture2D" uid="uid://baemsigmmejeg" path="res://scene7/Player/bott.png" id="13_2dv3f"]
 [ext_resource type="Script" path="res://scene7/Area2D2.gd" id="17_ir04c"]
 [ext_resource type="AudioStream" uid="uid://bt2jhbvagwslr" path="res://scene7/Soundboard/malocrane.mp3" id="19_olbuq"]
+[ext_resource type="Script" path="res://scene7/Area2D3.gd" id="20_ve0ud"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5q6ln"]
 size = Vector2(1936, 86.5)
@@ -124,6 +125,9 @@ size = Vector2(120.25, 58.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_f0pqy"]
 size = Vector2(1713, 44)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mqham"]
+size = Vector2(150.5, 378.5)
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_0mo1l")
@@ -233,5 +237,13 @@ expand_mode = 1
 [node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("19_olbuq")
 
+[node name="Area2D3" type="Area2D" parent="."]
+script = ExtResource("20_ve0ud")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D3"]
+position = Vector2(1828.25, 785.25)
+shape = SubResource("RectangleShape2D_mqham")
+
 [connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]
 [connection signal="body_entered" from="Area2D2" to="Area2D2" method="_on_body_entered"]
+[connection signal="body_entered" from="Area2D3" to="Area2D3" method="_on_body_entered"]

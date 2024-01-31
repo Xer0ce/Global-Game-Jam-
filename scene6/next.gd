@@ -11,4 +11,4 @@ func _process(delta):
 	pass
 
 func _on_body_entered(body):
-	get_tree().change_scene_to_file("res://PMU/PMUdehors.tscn")
+	get_tree().change_scene_to_file("res://scene7/player.tscn")

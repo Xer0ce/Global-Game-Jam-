@@ -1,1 +1,16 @@
 res://menu.tscn
+res://scene6/Scene4.tscn
+res://scene6/Scene6.tscn
+res://settings.tscn
+res://scene7/player.tscn
+res://scene7/Area2D2.gd
+res://scene6/next.gd
+res://PMU/PMUdehors.tscn
+res://scene3/scene_3.tscn
+res://main/player.tscn
+res://PMU/player.tscn
+res://scene1/player.tscn
+res://scene1/Scene1.tscn
+res://scene2/player.tscn
+res://scene3/player.tscn
+res://scene7/Area2D3.gd

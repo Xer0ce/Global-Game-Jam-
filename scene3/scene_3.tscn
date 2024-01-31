@@ -1,7 +1,7 @@
 [gd_scene load_steps=54 format=3 uid="uid://0aq7gqthjsi"]
 
 [ext_resource type="Script" path="res://scene3/scene_3.gd" id="1_r2lf6"]
-[ext_resource type="Texture2D" uid="uid://6t1vh2gp8esn" path="res://scene7/background.png" id="1_u2k26"]
+[ext_resource type="Texture2D" uid="uid://6t1vh2gp8esn" path="res://background.png" id="1_u2k26"]
 [ext_resource type="Script" path="res://scene3/CharacterBody2D.gd" id="2_og5qx"]
 [ext_resource type="Texture2D" uid="uid://ck1cq754kru2n" path="res://scene7/Player/Player/courir 1.png" id="3_1ystv"]
 [ext_resource type="Texture2D" uid="uid://dyewjx1402w2d" path="res://scene7/Player/Player/courir 2.png" id="4_l5gpd"]
@@ -10,7 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://bmw3enawtbq13" path="res://scene3/Player/mure_scene3/brique.jpg" id="7_1i2ex"]
 [ext_resource type="Texture2D" uid="uid://cyxbtv1asi600" path="res://scene3/Player/Player/eau.png" id="7_fbv2c"]
 [ext_resource type="Texture2D" uid="uid://mc3mcf67ggnl" path="res://scene3/Player/bloc.png" id="8_o2n1e"]
-[ext_resource type="AudioStream" uid="uid://cm2utxvge4xym" path="res://scene7/Soundboard/fume.mp3" id="10_m1o5q"]
+[ext_resource type="AudioStream" uid="uid://cm2utxvge4xym" path="res://Soundboard/fume.mp3" id="10_m1o5q"]
 [ext_resource type="Script" path="res://scene3/AudioStreamPlayer.gd" id="11_vb5b1"]
 [ext_resource type="Script" path="res://scene3/echel.gd" id="12_31iv8"]
 [ext_resource type="Texture2D" uid="uid://c23y06kxlsfu2" path="res://scene3/Player/echel.png" id="12_gjviw"]

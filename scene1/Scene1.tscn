@@ -1,6 +1,6 @@
 [gd_scene load_steps=30 format=3 uid="uid://b6ngvk8t6xboh"]
 
-[ext_resource type="Texture2D" uid="uid://6t1vh2gp8esn" path="res://scene7/background.png" id="1_6ksbq"]
+[ext_resource type="Texture2D" uid="uid://6t1vh2gp8esn" path="res://background.png" id="1_6ksbq"]
 [ext_resource type="Texture2D" uid="uid://mi3p36c4dxtn" path="res://scene6/Player/plateforme.png" id="2_jjvo6"]
 [ext_resource type="Script" path="res://scene1/StaticBody2D.gd" id="3_oepw0"]
 [ext_resource type="Script" path="res://scene1/mort.gd" id="5_8w2m7"]
@@ -10,7 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://dyewjx1402w2d" path="res://scene7/Player/Player/courir 2.png" id="8_pkplt"]
 [ext_resource type="Texture2D" uid="uid://dabknwvvrjhbd" path="res://scene7/Player/Player/normal.png" id="9_66p6w"]
 [ext_resource type="Script" path="res://scene1/AnimatedSprite2D.gd" id="10_3o8fe"]
-[ext_resource type="AudioStream" uid="uid://cm2utxvge4xym" path="res://scene7/Soundboard/fume.mp3" id="11_wvkaw"]
+[ext_resource type="AudioStream" uid="uid://cm2utxvge4xym" path="res://Soundboard/fume.mp3" id="11_wvkaw"]
 [ext_resource type="Script" path="res://scene1/next.gd" id="12_fkfy2"]
 [ext_resource type="Script" path="res://AudioStreamPlayer.gd" id="12_kr1vj"]
 
